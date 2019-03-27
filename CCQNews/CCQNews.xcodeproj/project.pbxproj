@@ -7,21 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28A3778D224B0CB800F9B70B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A3778C224B0CB800F9B70B /* AppDelegate.swift */; };
-		28A3778F224B0CB800F9B70B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A3778E224B0CB800F9B70B /* ViewController.swift */; };
 		28A37792224B0CB800F9B70B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A37790224B0CB800F9B70B /* Main.storyboard */; };
 		28A37794224B0CBB00F9B70B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A37793224B0CBB00F9B70B /* Assets.xcassets */; };
 		28A37797224B0CBB00F9B70B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A37795224B0CBB00F9B70B /* LaunchScreen.storyboard */; };
+		28A3781C224B0F8700F9B70B /* CCQHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A377EE224B0F8700F9B70B /* CCQHomeViewController.swift */; };
+		28A3781D224B0F8700F9B70B /* CCQDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A377F0224B0F8700F9B70B /* CCQDiscoverViewController.swift */; };
+		28A3781F224B0F8700F9B70B /* CCQProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A377F4224B0F8700F9B70B /* CCQProfileViewController.swift */; };
+		28A37823224B0F8800F9B70B /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A377FC224B0F8700F9B70B /* UIColor+CZAddition.m */; };
+		28A37824224B0F8800F9B70B /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A377FD224B0F8700F9B70B /* UIView+CZAddition.m */; };
+		28A37825224B0F8800F9B70B /* UIScreen+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A37800224B0F8700F9B70B /* UIScreen+CZAddition.m */; };
+		28A37826224B0F8800F9B70B /* UILabel+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A37802224B0F8700F9B70B /* UILabel+CZAddition.m */; };
+		28A37827224B0F8800F9B70B /* NSString+CZBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A37804224B0F8700F9B70B /* NSString+CZBase64.m */; };
+		28A37828224B0F8800F9B70B /* NSString+CZPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A37805224B0F8700F9B70B /* NSString+CZPath.m */; };
+		28A37829224B0F8800F9B70B /* UIButton+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A37808224B0F8700F9B70B /* UIButton+CZAddition.m */; };
+		28A3782A224B0F8800F9B70B /* NSObject+CZRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A3780B224B0F8700F9B70B /* NSObject+CZRuntime.m */; };
+		28A3782B224B0F8800F9B70B /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A3780E224B0F8700F9B70B /* UIViewController+CZAddition.m */; };
+		28A3782C224B0F8800F9B70B /* NSString+CZHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A3780F224B0F8700F9B70B /* NSString+CZHash.m */; };
+		28A3782D224B0F8800F9B70B /* NSAttributedString+CZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A37812224B0F8700F9B70B /* NSAttributedString+CZAdditon.m */; };
+		28A3782E224B0F8800F9B70B /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A37813224B0F8700F9B70B /* NSArray+Log.m */; };
+		28A3782F224B0F8800F9B70B /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A37816224B0F8700F9B70B /* UIImage+Extensions.swift */; };
+		28A37830224B0F8800F9B70B /* UIBarButtonItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A37817224B0F8700F9B70B /* UIBarButtonItem+Extensions.swift */; };
+		28A37831224B0F8800F9B70B /* UIImageView+WebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A37818224B0F8700F9B70B /* UIImageView+WebImage.swift */; };
+		28A37832224B0F8800F9B70B /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A37819224B0F8700F9B70B /* Bundle+Extensions.swift */; };
+		28A37833224B0F8800F9B70B /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A3781A224B0F8700F9B70B /* Date+Extensions.swift */; };
+		28A37835224B0FFD00F9B70B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A37834224B0FFD00F9B70B /* AppDelegate.swift */; };
+		28A3783A224B224C00F9B70B /* CCQBaseNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A37837224B224C00F9B70B /* CCQBaseNavigationVC.swift */; };
+		28A3783B224B224C00F9B70B /* CCQBaseTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A37838224B224C00F9B70B /* CCQBaseTabBarVC.swift */; };
+		28A3783C224B224C00F9B70B /* CCQBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A37839224B224C00F9B70B /* CCQBaseViewController.swift */; };
+		7682E745E3A0A550FB121430 /* Pods_CCQNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A3784A224B405500F9B70B /* Pods_CCQNews.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		28A37789224B0CB800F9B70B /* CCQNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCQNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		28A3778C224B0CB800F9B70B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28A3778E224B0CB800F9B70B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		28A37791224B0CB800F9B70B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28A37793224B0CBB00F9B70B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28A37796224B0CBB00F9B70B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28A37798224B0CBB00F9B70B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28A377EE224B0F8700F9B70B /* CCQHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCQHomeViewController.swift; sourceTree = "<group>"; };
+		28A377F0224B0F8700F9B70B /* CCQDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCQDiscoverViewController.swift; sourceTree = "<group>"; };
+		28A377F4224B0F8700F9B70B /* CCQProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCQProfileViewController.swift; sourceTree = "<group>"; };
+		28A377FC224B0F8700F9B70B /* UIColor+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZAddition.m"; sourceTree = "<group>"; };
+		28A377FD224B0F8700F9B70B /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZAddition.m"; sourceTree = "<group>"; };
+		28A377FE224B0F8700F9B70B /* UIButton+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CZAddition.h"; sourceTree = "<group>"; };
+		28A377FF224B0F8700F9B70B /* NSString+CZHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZHash.h"; sourceTree = "<group>"; };
+		28A37800224B0F8700F9B70B /* UIScreen+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+CZAddition.m"; sourceTree = "<group>"; };
+		28A37801224B0F8700F9B70B /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CZAddition.h"; sourceTree = "<group>"; };
+		28A37802224B0F8700F9B70B /* UILabel+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CZAddition.m"; sourceTree = "<group>"; };
+		28A37803224B0F8700F9B70B /* NSObject+CZRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CZRuntime.h"; sourceTree = "<group>"; };
+		28A37804224B0F8700F9B70B /* NSString+CZBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZBase64.m"; sourceTree = "<group>"; };
+		28A37805224B0F8700F9B70B /* NSString+CZPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZPath.m"; sourceTree = "<group>"; };
+		28A37806224B0F8700F9B70B /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		28A37807224B0F8700F9B70B /* NSAttributedString+CZAdditon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+CZAdditon.h"; sourceTree = "<group>"; };
+		28A37808224B0F8700F9B70B /* UIButton+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CZAddition.m"; sourceTree = "<group>"; };
+		28A37809224B0F8700F9B70B /* UIView+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZAddition.h"; sourceTree = "<group>"; };
+		28A3780A224B0F8700F9B70B /* UIColor+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZAddition.h"; sourceTree = "<group>"; };
+		28A3780B224B0F8700F9B70B /* NSObject+CZRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CZRuntime.m"; sourceTree = "<group>"; };
+		28A3780C224B0F8700F9B70B /* UILabel+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CZAddition.h"; sourceTree = "<group>"; };
+		28A3780D224B0F8700F9B70B /* UIScreen+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+CZAddition.h"; sourceTree = "<group>"; };
+		28A3780E224B0F8700F9B70B /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
+		28A3780F224B0F8700F9B70B /* NSString+CZHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZHash.m"; sourceTree = "<group>"; };
+		28A37810224B0F8700F9B70B /* NSString+CZBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZBase64.h"; sourceTree = "<group>"; };
+		28A37811224B0F8700F9B70B /* CZAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZAdditions.h; sourceTree = "<group>"; };
+		28A37812224B0F8700F9B70B /* NSAttributedString+CZAdditon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+CZAdditon.m"; sourceTree = "<group>"; };
+		28A37813224B0F8700F9B70B /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		28A37814224B0F8700F9B70B /* NSString+CZPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZPath.h"; sourceTree = "<group>"; };
+		28A37816224B0F8700F9B70B /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		28A37817224B0F8700F9B70B /* UIBarButtonItem+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extensions.swift"; sourceTree = "<group>"; };
+		28A37818224B0F8700F9B70B /* UIImageView+WebImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+WebImage.swift"; sourceTree = "<group>"; };
+		28A37819224B0F8700F9B70B /* Bundle+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		28A3781A224B0F8700F9B70B /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		28A37834224B0FFD00F9B70B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28A37837224B224C00F9B70B /* CCQBaseNavigationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCQBaseNavigationVC.swift; sourceTree = "<group>"; };
+		28A37838224B224C00F9B70B /* CCQBaseTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCQBaseTabBarVC.swift; sourceTree = "<group>"; };
+		28A37839224B224C00F9B70B /* CCQBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCQBaseViewController.swift; sourceTree = "<group>"; };
+		28A3783E224B298D00F9B70B /* News-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "News-Bridge.h"; sourceTree = "<group>"; };
+		28A37840224B3F6500F9B70B /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A37842224B401A00F9B70B /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A37844224B401E00F9B70B /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A37846224B402200F9B70B /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A37848224B402900F9B70B /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A3784A224B405500F9B70B /* Pods_CCQNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CCQNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F09BE672E561ABEB47DC80F /* Pods-CCQNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCQNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCQNews/Pods-CCQNews.release.xcconfig"; sourceTree = "<group>"; };
+		9E728C7823296B10BAA651AB /* Pods-CCQNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCQNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCQNews/Pods-CCQNews.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7682E745E3A0A550FB121430 /* Pods_CCQNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +108,8 @@
 			children = (
 				28A3778B224B0CB800F9B70B /* CCQNews */,
 				28A3778A224B0CB800F9B70B /* Products */,
+				28A3783F224B3F6500F9B70B /* Frameworks */,
+				5C23AA9F0C44ABA38F466001 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +124,192 @@
 		28A3778B224B0CB800F9B70B /* CCQNews */ = {
 			isa = PBXGroup;
 			children = (
-				28A3778C224B0CB800F9B70B /* AppDelegate.swift */,
-				28A3778E224B0CB800F9B70B /* ViewController.swift */,
+				28A377E7224B0F8700F9B70B /* Classes */,
 				28A37790224B0CB800F9B70B /* Main.storyboard */,
+				28A3783E224B298D00F9B70B /* News-Bridge.h */,
 				28A37793224B0CBB00F9B70B /* Assets.xcassets */,
 				28A37795224B0CBB00F9B70B /* LaunchScreen.storyboard */,
 				28A37798224B0CBB00F9B70B /* Info.plist */,
 			);
 			path = CCQNews;
+			sourceTree = "<group>";
+		};
+		28A377E7224B0F8700F9B70B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28A377EB224B0F8700F9B70B /* Application */,
+				28A377EC224B0F8700F9B70B /* Controllers */,
+				28A377EA224B0F8700F9B70B /* Model */,
+				28A377F9224B0F8700F9B70B /* Views */,
+				28A377E8224B0F8700F9B70B /* Tools */,
+				28A377E9224B0F8700F9B70B /* Resources */,
+				28A377FA224B0F8700F9B70B /* Categories */,
+				28A3781B224B0F8700F9B70B /* Vendor */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		28A377E8224B0F8700F9B70B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		28A377E9224B0F8700F9B70B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		28A377EA224B0F8700F9B70B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		28A377EB224B0F8700F9B70B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				28A37834224B0FFD00F9B70B /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		28A377EC224B0F8700F9B70B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				28A37836224B224C00F9B70B /* Base */,
+				28A377ED224B0F8700F9B70B /* Home */,
+				28A377EF224B0F8700F9B70B /* Discover */,
+				28A377F3224B0F8700F9B70B /* Profile */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		28A377ED224B0F8700F9B70B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				28A377EE224B0F8700F9B70B /* CCQHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		28A377EF224B0F8700F9B70B /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				28A377F0224B0F8700F9B70B /* CCQDiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		28A377F3224B0F8700F9B70B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				28A377F4224B0F8700F9B70B /* CCQProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		28A377F9224B0F8700F9B70B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		28A377FA224B0F8700F9B70B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				28A377FB224B0F8700F9B70B /* Additions */,
+				28A37815224B0F8700F9B70B /* Extensions */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		28A377FB224B0F8700F9B70B /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				28A377FC224B0F8700F9B70B /* UIColor+CZAddition.m */,
+				28A377FD224B0F8700F9B70B /* UIView+CZAddition.m */,
+				28A377FE224B0F8700F9B70B /* UIButton+CZAddition.h */,
+				28A377FF224B0F8700F9B70B /* NSString+CZHash.h */,
+				28A37800224B0F8700F9B70B /* UIScreen+CZAddition.m */,
+				28A37801224B0F8700F9B70B /* UIViewController+CZAddition.h */,
+				28A37802224B0F8700F9B70B /* UILabel+CZAddition.m */,
+				28A37803224B0F8700F9B70B /* NSObject+CZRuntime.h */,
+				28A37804224B0F8700F9B70B /* NSString+CZBase64.m */,
+				28A37805224B0F8700F9B70B /* NSString+CZPath.m */,
+				28A37806224B0F8700F9B70B /* NSArray+Log.h */,
+				28A37807224B0F8700F9B70B /* NSAttributedString+CZAdditon.h */,
+				28A37808224B0F8700F9B70B /* UIButton+CZAddition.m */,
+				28A37809224B0F8700F9B70B /* UIView+CZAddition.h */,
+				28A3780A224B0F8700F9B70B /* UIColor+CZAddition.h */,
+				28A3780B224B0F8700F9B70B /* NSObject+CZRuntime.m */,
+				28A3780C224B0F8700F9B70B /* UILabel+CZAddition.h */,
+				28A3780D224B0F8700F9B70B /* UIScreen+CZAddition.h */,
+				28A3780E224B0F8700F9B70B /* UIViewController+CZAddition.m */,
+				28A3780F224B0F8700F9B70B /* NSString+CZHash.m */,
+				28A37810224B0F8700F9B70B /* NSString+CZBase64.h */,
+				28A37811224B0F8700F9B70B /* CZAdditions.h */,
+				28A37812224B0F8700F9B70B /* NSAttributedString+CZAdditon.m */,
+				28A37813224B0F8700F9B70B /* NSArray+Log.m */,
+				28A37814224B0F8700F9B70B /* NSString+CZPath.h */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		28A37815224B0F8700F9B70B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				28A37816224B0F8700F9B70B /* UIImage+Extensions.swift */,
+				28A37817224B0F8700F9B70B /* UIBarButtonItem+Extensions.swift */,
+				28A37818224B0F8700F9B70B /* UIImageView+WebImage.swift */,
+				28A37819224B0F8700F9B70B /* Bundle+Extensions.swift */,
+				28A3781A224B0F8700F9B70B /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		28A3781B224B0F8700F9B70B /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		28A37836224B224C00F9B70B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				28A37837224B224C00F9B70B /* CCQBaseNavigationVC.swift */,
+				28A37838224B224C00F9B70B /* CCQBaseTabBarVC.swift */,
+				28A37839224B224C00F9B70B /* CCQBaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		28A3783F224B3F6500F9B70B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28A3784A224B405500F9B70B /* Pods_CCQNews.framework */,
+				28A37848224B402900F9B70B /* YYModel.framework */,
+				28A37846224B402200F9B70B /* SDWebImage.framework */,
+				28A37844224B401E00F9B70B /* MBProgressHUD.framework */,
+				28A37842224B401A00F9B70B /* AFNetworking.framework */,
+				28A37840224B3F6500F9B70B /* SDWebImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C23AA9F0C44ABA38F466001 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E728C7823296B10BAA651AB /* Pods-CCQNews.debug.xcconfig */,
+				4F09BE672E561ABEB47DC80F /* Pods-CCQNews.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +319,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28A3779B224B0CBB00F9B70B /* Build configuration list for PBXNativeTarget "CCQNews" */;
 			buildPhases = (
+				DA316BEE686AF3CCCF6B60F8 /* [CP] Check Pods Manifest.lock */,
 				28A37785224B0CB800F9B70B /* Sources */,
 				28A37786224B0CB800F9B70B /* Frameworks */,
 				28A37787224B0CB800F9B70B /* Resources */,
+				896141653D6B2FE1B4E40156 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +380,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		896141653D6B2FE1B4E40156 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CCQNews/Pods-CCQNews-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCQNews/Pods-CCQNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA316BEE686AF3CCCF6B60F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCQNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		28A37785224B0CB800F9B70B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28A3778F224B0CB800F9B70B /* ViewController.swift in Sources */,
-				28A3778D224B0CB800F9B70B /* AppDelegate.swift in Sources */,
+				28A37824224B0F8800F9B70B /* UIView+CZAddition.m in Sources */,
+				28A3783A224B224C00F9B70B /* CCQBaseNavigationVC.swift in Sources */,
+				28A37830224B0F8800F9B70B /* UIBarButtonItem+Extensions.swift in Sources */,
+				28A37828224B0F8800F9B70B /* NSString+CZPath.m in Sources */,
+				28A37833224B0F8800F9B70B /* Date+Extensions.swift in Sources */,
+				28A37823224B0F8800F9B70B /* UIColor+CZAddition.m in Sources */,
+				28A37827224B0F8800F9B70B /* NSString+CZBase64.m in Sources */,
+				28A37832224B0F8800F9B70B /* Bundle+Extensions.swift in Sources */,
+				28A37835224B0FFD00F9B70B /* AppDelegate.swift in Sources */,
+				28A37826224B0F8800F9B70B /* UILabel+CZAddition.m in Sources */,
+				28A3782A224B0F8800F9B70B /* NSObject+CZRuntime.m in Sources */,
+				28A3783B224B224C00F9B70B /* CCQBaseTabBarVC.swift in Sources */,
+				28A3781C224B0F8700F9B70B /* CCQHomeViewController.swift in Sources */,
+				28A3782B224B0F8800F9B70B /* UIViewController+CZAddition.m in Sources */,
+				28A3781F224B0F8700F9B70B /* CCQProfileViewController.swift in Sources */,
+				28A37831224B0F8800F9B70B /* UIImageView+WebImage.swift in Sources */,
+				28A3783C224B224C00F9B70B /* CCQBaseViewController.swift in Sources */,
+				28A3782D224B0F8800F9B70B /* NSAttributedString+CZAdditon.m in Sources */,
+				28A3782F224B0F8800F9B70B /* UIImage+Extensions.swift in Sources */,
+				28A3782E224B0F8800F9B70B /* NSArray+Log.m in Sources */,
+				28A3781D224B0F8700F9B70B /* CCQDiscoverViewController.swift in Sources */,
+				28A3782C224B0F8800F9B70B /* NSString+CZHash.m in Sources */,
+				28A37825224B0F8800F9B70B /* UIScreen+CZAddition.m in Sources */,
+				28A37829224B0F8800F9B70B /* UIButton+CZAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,16 +597,15 @@
 		};
 		28A3779C224B0CBB00F9B70B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E728C7823296B10BAA651AB /* Pods-CCQNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CCQNews/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ChaoQunChang.CCQNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CCQNews/News-Bridge.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,16 +613,15 @@
 		};
 		28A3779D224B0CBB00F9B70B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F09BE672E561ABEB47DC80F /* Pods-CCQNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CCQNews/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ChaoQunChang.CCQNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CCQNews/News-Bridge.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
