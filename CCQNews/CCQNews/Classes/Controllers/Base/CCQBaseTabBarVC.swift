@@ -12,8 +12,6 @@ class CCQBaseTabBarVC: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        ///解决pop时候tabbar移动BUG
-//        tabBar.isTranslucent = false
     }
 }
 

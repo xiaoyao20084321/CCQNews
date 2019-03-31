@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2891DF24224F0DDC00C2F048 /* CCQHttpRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF23224F0DDC00C2F048 /* CCQHttpRequestManager.swift */; };
+		2891DF26224F18CA00C2F048 /* CCQURLSessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF25224F18CA00C2F048 /* CCQURLSessionDataTask.swift */; };
+		2891DF28225062EE00C2F048 /* CCQURLConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF27225062EE00C2F048 /* CCQURLConfig.swift */; };
 		28A37792224B0CB800F9B70B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A37790224B0CB800F9B70B /* Main.storyboard */; };
 		28A37794224B0CBB00F9B70B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A37793224B0CBB00F9B70B /* Assets.xcassets */; };
 		28A37797224B0CBB00F9B70B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A37795224B0CBB00F9B70B /* LaunchScreen.storyboard */; };
@@ -38,6 +41,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2891DF23224F0DDC00C2F048 /* CCQHttpRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQHttpRequestManager.swift; sourceTree = "<group>"; };
+		2891DF25224F18CA00C2F048 /* CCQURLSessionDataTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQURLSessionDataTask.swift; sourceTree = "<group>"; };
+		2891DF27225062EE00C2F048 /* CCQURLConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQURLConfig.swift; sourceTree = "<group>"; };
 		28A37789224B0CB800F9B70B /* CCQNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCQNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A37791224B0CB800F9B70B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28A37793224B0CBB00F9B70B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2891DF22224F0D7500C2F048 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				2891DF23224F0DDC00C2F048 /* CCQHttpRequestManager.swift */,
+				2891DF25224F18CA00C2F048 /* CCQURLSessionDataTask.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
 		28A37780224B0CB800F9B70B = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +167,7 @@
 		28A377E8224B0F8700F9B70B /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				2891DF22224F0D7500C2F048 /* NetWork */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -174,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				28A37834224B0FFD00F9B70B /* AppDelegate.swift */,
+				2891DF27225062EE00C2F048 /* CCQURLConfig.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -232,31 +249,31 @@
 		28A377FB224B0F8700F9B70B /* Additions */ = {
 			isa = PBXGroup;
 			children = (
-				28A377FC224B0F8700F9B70B /* UIColor+CZAddition.m */,
-				28A377FD224B0F8700F9B70B /* UIView+CZAddition.m */,
-				28A377FE224B0F8700F9B70B /* UIButton+CZAddition.h */,
-				28A377FF224B0F8700F9B70B /* NSString+CZHash.h */,
-				28A37800224B0F8700F9B70B /* UIScreen+CZAddition.m */,
-				28A37801224B0F8700F9B70B /* UIViewController+CZAddition.h */,
-				28A37802224B0F8700F9B70B /* UILabel+CZAddition.m */,
-				28A37803224B0F8700F9B70B /* NSObject+CZRuntime.h */,
-				28A37804224B0F8700F9B70B /* NSString+CZBase64.m */,
-				28A37805224B0F8700F9B70B /* NSString+CZPath.m */,
-				28A37806224B0F8700F9B70B /* NSArray+Log.h */,
-				28A37807224B0F8700F9B70B /* NSAttributedString+CZAdditon.h */,
-				28A37808224B0F8700F9B70B /* UIButton+CZAddition.m */,
-				28A37809224B0F8700F9B70B /* UIView+CZAddition.h */,
-				28A3780A224B0F8700F9B70B /* UIColor+CZAddition.h */,
-				28A3780B224B0F8700F9B70B /* NSObject+CZRuntime.m */,
-				28A3780C224B0F8700F9B70B /* UILabel+CZAddition.h */,
-				28A3780D224B0F8700F9B70B /* UIScreen+CZAddition.h */,
-				28A3780E224B0F8700F9B70B /* UIViewController+CZAddition.m */,
-				28A3780F224B0F8700F9B70B /* NSString+CZHash.m */,
-				28A37810224B0F8700F9B70B /* NSString+CZBase64.h */,
 				28A37811224B0F8700F9B70B /* CZAdditions.h */,
-				28A37812224B0F8700F9B70B /* NSAttributedString+CZAdditon.m */,
+				28A37806224B0F8700F9B70B /* NSArray+Log.h */,
 				28A37813224B0F8700F9B70B /* NSArray+Log.m */,
+				28A37807224B0F8700F9B70B /* NSAttributedString+CZAdditon.h */,
+				28A37812224B0F8700F9B70B /* NSAttributedString+CZAdditon.m */,
+				28A37803224B0F8700F9B70B /* NSObject+CZRuntime.h */,
+				28A3780B224B0F8700F9B70B /* NSObject+CZRuntime.m */,
+				28A37810224B0F8700F9B70B /* NSString+CZBase64.h */,
+				28A37804224B0F8700F9B70B /* NSString+CZBase64.m */,
+				28A377FF224B0F8700F9B70B /* NSString+CZHash.h */,
+				28A3780F224B0F8700F9B70B /* NSString+CZHash.m */,
 				28A37814224B0F8700F9B70B /* NSString+CZPath.h */,
+				28A37805224B0F8700F9B70B /* NSString+CZPath.m */,
+				28A377FE224B0F8700F9B70B /* UIButton+CZAddition.h */,
+				28A37808224B0F8700F9B70B /* UIButton+CZAddition.m */,
+				28A3780A224B0F8700F9B70B /* UIColor+CZAddition.h */,
+				28A377FC224B0F8700F9B70B /* UIColor+CZAddition.m */,
+				28A3780C224B0F8700F9B70B /* UILabel+CZAddition.h */,
+				28A37802224B0F8700F9B70B /* UILabel+CZAddition.m */,
+				28A3780D224B0F8700F9B70B /* UIScreen+CZAddition.h */,
+				28A37800224B0F8700F9B70B /* UIScreen+CZAddition.m */,
+				28A37809224B0F8700F9B70B /* UIView+CZAddition.h */,
+				28A377FD224B0F8700F9B70B /* UIView+CZAddition.m */,
+				28A37801224B0F8700F9B70B /* UIViewController+CZAddition.h */,
+				28A3780E224B0F8700F9B70B /* UIViewController+CZAddition.m */,
 			);
 			path = Additions;
 			sourceTree = "<group>";
@@ -346,6 +363,7 @@
 				TargetAttributes = {
 					28A37788224B0CB800F9B70B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -441,15 +459,18 @@
 				28A37835224B0FFD00F9B70B /* AppDelegate.swift in Sources */,
 				28A37826224B0F8800F9B70B /* UILabel+CZAddition.m in Sources */,
 				28A3782A224B0F8800F9B70B /* NSObject+CZRuntime.m in Sources */,
+				2891DF26224F18CA00C2F048 /* CCQURLSessionDataTask.swift in Sources */,
 				28A3783B224B224C00F9B70B /* CCQBaseTabBarVC.swift in Sources */,
 				28A3781C224B0F8700F9B70B /* CCQHomeViewController.swift in Sources */,
 				28A3782B224B0F8800F9B70B /* UIViewController+CZAddition.m in Sources */,
+				2891DF28225062EE00C2F048 /* CCQURLConfig.swift in Sources */,
 				28A3781F224B0F8700F9B70B /* CCQProfileViewController.swift in Sources */,
 				28A37831224B0F8800F9B70B /* UIImageView+WebImage.swift in Sources */,
 				28A3783C224B224C00F9B70B /* CCQBaseViewController.swift in Sources */,
 				28A3782D224B0F8800F9B70B /* NSAttributedString+CZAdditon.m in Sources */,
 				28A3782F224B0F8800F9B70B /* UIImage+Extensions.swift in Sources */,
 				28A3782E224B0F8800F9B70B /* NSArray+Log.m in Sources */,
+				2891DF24224F0DDC00C2F048 /* CCQHttpRequestManager.swift in Sources */,
 				28A3781D224B0F8700F9B70B /* CCQDiscoverViewController.swift in Sources */,
 				28A3782C224B0F8800F9B70B /* NSString+CZHash.m in Sources */,
 				28A37825224B0F8800F9B70B /* UIScreen+CZAddition.m in Sources */,
@@ -602,11 +623,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CCQNews/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ChaoQunChang.CCQNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CCQNews/News-Bridge.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -618,11 +642,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CCQNews/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ChaoQunChang.CCQNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CCQNews/News-Bridge.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

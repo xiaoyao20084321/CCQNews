@@ -18,6 +18,7 @@ class CCQBaseViewController: UIViewController {
 // MARK: - 设置界面
 extension CCQBaseViewController {
     
-    private func setupUI() {
+    @objc func setupUI() {
+        
     }
 }
