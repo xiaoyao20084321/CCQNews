@@ -29,7 +29,7 @@ extension CCQHomeViewController {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: newsCellIDF)
     }
     private func loadData() {
-        let parameters = ["kw" : "体育资讯", "apikey" : kAPIKEY, "publishDateRange" : "1551398400,1553990400"]
+        let parameters = ["kw" : "体育赛事", "apikey" : kAPIKEY, "publishDateRange" : "\(CCQTools.getTimeStampWithDayNum(dayNum: -30)),\(CCQTools.getTimeStampWithDayNum())"]
         _ = CCQHttpRequestManager.shared.request(urlString: kNEWSAPI, parameters: parameters as [String : AnyObject]) { (json, isSuccess) in
             if isSuccess {
                 guard let jsonData = json as? [String: AnyObject] else {
@@ -44,6 +44,7 @@ extension CCQHomeViewController {
             }
         }
     }
+    
 }
 // MARK: - UITableViewDataSource, UITableViewDelegate
 extension CCQHomeViewController: UITableViewDataSource, UITableViewDelegate {

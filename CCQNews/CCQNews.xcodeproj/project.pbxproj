@@ -10,6 +10,7 @@
 		2891DF24224F0DDC00C2F048 /* CCQHttpRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF23224F0DDC00C2F048 /* CCQHttpRequestManager.swift */; };
 		2891DF26224F18CA00C2F048 /* CCQURLSessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF25224F18CA00C2F048 /* CCQURLSessionDataTask.swift */; };
 		2891DF28225062EE00C2F048 /* CCQURLConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF27225062EE00C2F048 /* CCQURLConfig.swift */; };
+		2891DF2D2252206D00C2F048 /* CCQTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF2C2252206D00C2F048 /* CCQTools.swift */; };
 		28A37792224B0CB800F9B70B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A37790224B0CB800F9B70B /* Main.storyboard */; };
 		28A37794224B0CBB00F9B70B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A37793224B0CBB00F9B70B /* Assets.xcassets */; };
 		28A37797224B0CBB00F9B70B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A37795224B0CBB00F9B70B /* LaunchScreen.storyboard */; };
@@ -44,6 +45,7 @@
 		2891DF23224F0DDC00C2F048 /* CCQHttpRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQHttpRequestManager.swift; sourceTree = "<group>"; };
 		2891DF25224F18CA00C2F048 /* CCQURLSessionDataTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQURLSessionDataTask.swift; sourceTree = "<group>"; };
 		2891DF27225062EE00C2F048 /* CCQURLConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQURLConfig.swift; sourceTree = "<group>"; };
+		2891DF2C2252206D00C2F048 /* CCQTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQTools.swift; sourceTree = "<group>"; };
 		28A37789224B0CB800F9B70B /* CCQNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCQNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A37791224B0CB800F9B70B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28A37793224B0CBB00F9B70B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				2891DF22224F0D7500C2F048 /* NetWork */,
+				2891DF2C2252206D00C2F048 /* CCQTools.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 				28A3783B224B224C00F9B70B /* CCQBaseTabBarVC.swift in Sources */,
 				28A3781C224B0F8700F9B70B /* CCQHomeViewController.swift in Sources */,
 				28A3782B224B0F8800F9B70B /* UIViewController+CZAddition.m in Sources */,
+				2891DF2D2252206D00C2F048 /* CCQTools.swift in Sources */,
 				2891DF28225062EE00C2F048 /* CCQURLConfig.swift in Sources */,
 				28A3781F224B0F8700F9B70B /* CCQProfileViewController.swift in Sources */,
 				28A37831224B0F8800F9B70B /* UIImageView+WebImage.swift in Sources */,
