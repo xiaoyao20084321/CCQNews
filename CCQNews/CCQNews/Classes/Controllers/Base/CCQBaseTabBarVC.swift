@@ -12,6 +12,7 @@ class CCQBaseTabBarVC: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        tabBar.tintColor = kCCQAppMainColor;
     }
 }
 

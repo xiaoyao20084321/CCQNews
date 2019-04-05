@@ -7,16 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		283E1639225752D0006EFDA3 /* CCQCommonMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E1638225752D0006EFDA3 /* CCQCommonMacro.swift */; };
 		2891DF24224F0DDC00C2F048 /* CCQHttpRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF23224F0DDC00C2F048 /* CCQHttpRequestManager.swift */; };
 		2891DF26224F18CA00C2F048 /* CCQURLSessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF25224F18CA00C2F048 /* CCQURLSessionDataTask.swift */; };
 		2891DF28225062EE00C2F048 /* CCQURLConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF27225062EE00C2F048 /* CCQURLConfig.swift */; };
 		2891DF2D2252206D00C2F048 /* CCQTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF2C2252206D00C2F048 /* CCQTools.swift */; };
+		2891DF372253602200C2F048 /* CCQNewsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF362253602200C2F048 /* CCQNewsListModel.swift */; };
+		2891DF3A22536FAC00C2F048 /* NSObject+CCQModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF3922536FAC00C2F048 /* NSObject+CCQModel.m */; };
+		2891DF3E2254BA0500C2F048 /* CCQWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF3D2254BA0500C2F048 /* CCQWebView.swift */; };
+		2891DF422254BB2D00C2F048 /* CCQNewsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF402254BB2D00C2F048 /* CCQNewsDetailVC.swift */; };
+		2891DF432254BB2D00C2F048 /* CCQNewsDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2891DF412254BB2D00C2F048 /* CCQNewsDetailVC.xib */; };
+		2891DF472255CFDB00C2F048 /* CCQHomeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF452255CFDB00C2F048 /* CCQHomeListCell.swift */; };
+		2891DF482255CFDB00C2F048 /* CCQHomeListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2891DF462255CFDB00C2F048 /* CCQHomeListCell.xib */; };
+		2891DF5122560B6E00C2F048 /* CCQTextJokesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF4F22560B6E00C2F048 /* CCQTextJokesListCell.swift */; };
+		2891DF5222560B6E00C2F048 /* CCQTextJokesListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2891DF5022560B6E00C2F048 /* CCQTextJokesListCell.xib */; };
+		2891DF592256E65C00C2F048 /* CCQVideosListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF582256E65C00C2F048 /* CCQVideosListVC.swift */; };
 		28A37792224B0CB800F9B70B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A37790224B0CB800F9B70B /* Main.storyboard */; };
 		28A37794224B0CBB00F9B70B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A37793224B0CBB00F9B70B /* Assets.xcassets */; };
-		28A37797224B0CBB00F9B70B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A37795224B0CBB00F9B70B /* LaunchScreen.storyboard */; };
 		28A3781C224B0F8700F9B70B /* CCQHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A377EE224B0F8700F9B70B /* CCQHomeViewController.swift */; };
 		28A3781D224B0F8700F9B70B /* CCQDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A377F0224B0F8700F9B70B /* CCQDiscoverViewController.swift */; };
-		28A3781F224B0F8700F9B70B /* CCQProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A377F4224B0F8700F9B70B /* CCQProfileViewController.swift */; };
 		28A37823224B0F8800F9B70B /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A377FC224B0F8700F9B70B /* UIColor+CZAddition.m */; };
 		28A37824224B0F8800F9B70B /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A377FD224B0F8700F9B70B /* UIView+CZAddition.m */; };
 		28A37825224B0F8800F9B70B /* UIScreen+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A37800224B0F8700F9B70B /* UIScreen+CZAddition.m */; };
@@ -42,18 +51,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		283E1638225752D0006EFDA3 /* CCQCommonMacro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQCommonMacro.swift; sourceTree = "<group>"; };
 		2891DF23224F0DDC00C2F048 /* CCQHttpRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQHttpRequestManager.swift; sourceTree = "<group>"; };
 		2891DF25224F18CA00C2F048 /* CCQURLSessionDataTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQURLSessionDataTask.swift; sourceTree = "<group>"; };
 		2891DF27225062EE00C2F048 /* CCQURLConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQURLConfig.swift; sourceTree = "<group>"; };
 		2891DF2C2252206D00C2F048 /* CCQTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQTools.swift; sourceTree = "<group>"; };
+		2891DF362253602200C2F048 /* CCQNewsListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQNewsListModel.swift; sourceTree = "<group>"; };
+		2891DF3822536FAC00C2F048 /* NSObject+CCQModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+CCQModel.h"; sourceTree = "<group>"; };
+		2891DF3922536FAC00C2F048 /* NSObject+CCQModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CCQModel.m"; sourceTree = "<group>"; };
+		2891DF3D2254BA0500C2F048 /* CCQWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQWebView.swift; sourceTree = "<group>"; };
+		2891DF402254BB2D00C2F048 /* CCQNewsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQNewsDetailVC.swift; sourceTree = "<group>"; };
+		2891DF412254BB2D00C2F048 /* CCQNewsDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCQNewsDetailVC.xib; sourceTree = "<group>"; };
+		2891DF452255CFDB00C2F048 /* CCQHomeListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQHomeListCell.swift; sourceTree = "<group>"; };
+		2891DF462255CFDB00C2F048 /* CCQHomeListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCQHomeListCell.xib; sourceTree = "<group>"; };
+		2891DF4F22560B6E00C2F048 /* CCQTextJokesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQTextJokesListCell.swift; sourceTree = "<group>"; };
+		2891DF5022560B6E00C2F048 /* CCQTextJokesListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCQTextJokesListCell.xib; sourceTree = "<group>"; };
+		2891DF582256E65C00C2F048 /* CCQVideosListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQVideosListVC.swift; sourceTree = "<group>"; };
 		28A37789224B0CB800F9B70B /* CCQNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCQNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A37791224B0CB800F9B70B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28A37793224B0CBB00F9B70B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		28A37796224B0CBB00F9B70B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28A37798224B0CBB00F9B70B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28A377EE224B0F8700F9B70B /* CCQHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCQHomeViewController.swift; sourceTree = "<group>"; };
 		28A377F0224B0F8700F9B70B /* CCQDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCQDiscoverViewController.swift; sourceTree = "<group>"; };
-		28A377F4224B0F8700F9B70B /* CCQProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCQProfileViewController.swift; sourceTree = "<group>"; };
 		28A377FC224B0F8700F9B70B /* UIColor+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZAddition.m"; sourceTree = "<group>"; };
 		28A377FD224B0F8700F9B70B /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZAddition.m"; sourceTree = "<group>"; };
 		28A377FE224B0F8700F9B70B /* UIButton+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CZAddition.h"; sourceTree = "<group>"; };
@@ -120,6 +139,49 @@
 			path = NetWork;
 			sourceTree = "<group>";
 		};
+		2891DF352253600D00C2F048 /* NewsListModel */ = {
+			isa = PBXGroup;
+			children = (
+				2891DF362253602200C2F048 /* CCQNewsListModel.swift */,
+			);
+			path = NewsListModel;
+			sourceTree = "<group>";
+		};
+		2891DF3F2254BAE700C2F048 /* CCQNewsDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				2891DF402254BB2D00C2F048 /* CCQNewsDetailVC.swift */,
+				2891DF412254BB2D00C2F048 /* CCQNewsDetailVC.xib */,
+			);
+			path = CCQNewsDetailVC;
+			sourceTree = "<group>";
+		};
+		2891DF442255CFB800C2F048 /* CCQHomeListCell */ = {
+			isa = PBXGroup;
+			children = (
+				2891DF452255CFDB00C2F048 /* CCQHomeListCell.swift */,
+				2891DF462255CFDB00C2F048 /* CCQHomeListCell.xib */,
+			);
+			path = CCQHomeListCell;
+			sourceTree = "<group>";
+		};
+		2891DF4E22560B5E00C2F048 /* CCQTextJokesListCell */ = {
+			isa = PBXGroup;
+			children = (
+				2891DF4F22560B6E00C2F048 /* CCQTextJokesListCell.swift */,
+				2891DF5022560B6E00C2F048 /* CCQTextJokesListCell.xib */,
+			);
+			path = CCQTextJokesListCell;
+			sourceTree = "<group>";
+		};
+		2891DF532256E61100C2F048 /* CCQVideosListVC */ = {
+			isa = PBXGroup;
+			children = (
+				2891DF582256E65C00C2F048 /* CCQVideosListVC.swift */,
+			);
+			path = CCQVideosListVC;
+			sourceTree = "<group>";
+		};
 		28A37780224B0CB800F9B70B = {
 			isa = PBXGroup;
 			children = (
@@ -145,7 +207,6 @@
 				28A37790224B0CB800F9B70B /* Main.storyboard */,
 				28A3783E224B298D00F9B70B /* News-Bridge.h */,
 				28A37793224B0CBB00F9B70B /* Assets.xcassets */,
-				28A37795224B0CBB00F9B70B /* LaunchScreen.storyboard */,
 				28A37798224B0CBB00F9B70B /* Info.plist */,
 			);
 			path = CCQNews;
@@ -171,6 +232,7 @@
 			children = (
 				2891DF22224F0D7500C2F048 /* NetWork */,
 				2891DF2C2252206D00C2F048 /* CCQTools.swift */,
+				2891DF3D2254BA0500C2F048 /* CCQWebView.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -185,6 +247,7 @@
 		28A377EA224B0F8700F9B70B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2891DF352253600D00C2F048 /* NewsListModel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -194,6 +257,7 @@
 			children = (
 				28A37834224B0FFD00F9B70B /* AppDelegate.swift */,
 				2891DF27225062EE00C2F048 /* CCQURLConfig.swift */,
+				283E1638225752D0006EFDA3 /* CCQCommonMacro.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -204,7 +268,8 @@
 				28A37836224B224C00F9B70B /* Base */,
 				28A377ED224B0F8700F9B70B /* Home */,
 				28A377EF224B0F8700F9B70B /* Discover */,
-				28A377F3224B0F8700F9B70B /* Profile */,
+				2891DF532256E61100C2F048 /* CCQVideosListVC */,
+				2891DF3F2254BAE700C2F048 /* CCQNewsDetailVC */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -225,17 +290,11 @@
 			path = Discover;
 			sourceTree = "<group>";
 		};
-		28A377F3224B0F8700F9B70B /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				28A377F4224B0F8700F9B70B /* CCQProfileViewController.swift */,
-			);
-			path = Profile;
-			sourceTree = "<group>";
-		};
 		28A377F9224B0F8700F9B70B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2891DF442255CFB800C2F048 /* CCQHomeListCell */,
+				2891DF4E22560B5E00C2F048 /* CCQTextJokesListCell */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -277,6 +336,8 @@
 				28A377FD224B0F8700F9B70B /* UIView+CZAddition.m */,
 				28A37801224B0F8700F9B70B /* UIViewController+CZAddition.h */,
 				28A3780E224B0F8700F9B70B /* UIViewController+CZAddition.m */,
+				2891DF3822536FAC00C2F048 /* NSObject+CCQModel.h */,
+				2891DF3922536FAC00C2F048 /* NSObject+CCQModel.m */,
 			);
 			path = Additions;
 			sourceTree = "<group>";
@@ -393,7 +454,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28A37797224B0CBB00F9B70B /* LaunchScreen.storyboard in Resources */,
+				2891DF482255CFDB00C2F048 /* CCQHomeListCell.xib in Resources */,
+				2891DF5222560B6E00C2F048 /* CCQTextJokesListCell.xib in Resources */,
+				2891DF432254BB2D00C2F048 /* CCQNewsDetailVC.xib in Resources */,
 				28A37794224B0CBB00F9B70B /* Assets.xcassets in Resources */,
 				28A37792224B0CB800F9B70B /* Main.storyboard in Resources */,
 			);
@@ -410,16 +473,22 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CCQNews/Pods-CCQNews-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+				"${BUILT_PRODUCTS_DIR}/ZFPlayer/ZFPlayer.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZFPlayer.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -454,6 +523,7 @@
 				28A37824224B0F8800F9B70B /* UIView+CZAddition.m in Sources */,
 				28A3783A224B224C00F9B70B /* CCQBaseNavigationVC.swift in Sources */,
 				28A37830224B0F8800F9B70B /* UIBarButtonItem+Extensions.swift in Sources */,
+				2891DF5122560B6E00C2F048 /* CCQTextJokesListCell.swift in Sources */,
 				28A37828224B0F8800F9B70B /* NSString+CZPath.m in Sources */,
 				28A37833224B0F8800F9B70B /* Date+Extensions.swift in Sources */,
 				28A37823224B0F8800F9B70B /* UIColor+CZAddition.m in Sources */,
@@ -467,14 +537,20 @@
 				28A3781C224B0F8700F9B70B /* CCQHomeViewController.swift in Sources */,
 				28A3782B224B0F8800F9B70B /* UIViewController+CZAddition.m in Sources */,
 				2891DF2D2252206D00C2F048 /* CCQTools.swift in Sources */,
+				2891DF422254BB2D00C2F048 /* CCQNewsDetailVC.swift in Sources */,
+				2891DF372253602200C2F048 /* CCQNewsListModel.swift in Sources */,
 				2891DF28225062EE00C2F048 /* CCQURLConfig.swift in Sources */,
-				28A3781F224B0F8700F9B70B /* CCQProfileViewController.swift in Sources */,
+				2891DF472255CFDB00C2F048 /* CCQHomeListCell.swift in Sources */,
+				2891DF3A22536FAC00C2F048 /* NSObject+CCQModel.m in Sources */,
 				28A37831224B0F8800F9B70B /* UIImageView+WebImage.swift in Sources */,
+				283E1639225752D0006EFDA3 /* CCQCommonMacro.swift in Sources */,
 				28A3783C224B224C00F9B70B /* CCQBaseViewController.swift in Sources */,
 				28A3782D224B0F8800F9B70B /* NSAttributedString+CZAdditon.m in Sources */,
 				28A3782F224B0F8800F9B70B /* UIImage+Extensions.swift in Sources */,
+				2891DF592256E65C00C2F048 /* CCQVideosListVC.swift in Sources */,
 				28A3782E224B0F8800F9B70B /* NSArray+Log.m in Sources */,
 				2891DF24224F0DDC00C2F048 /* CCQHttpRequestManager.swift in Sources */,
+				2891DF3E2254BA0500C2F048 /* CCQWebView.swift in Sources */,
 				28A3781D224B0F8700F9B70B /* CCQDiscoverViewController.swift in Sources */,
 				28A3782C224B0F8800F9B70B /* NSString+CZHash.m in Sources */,
 				28A37825224B0F8800F9B70B /* UIScreen+CZAddition.m in Sources */,
@@ -491,14 +567,6 @@
 				28A37791224B0CB800F9B70B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		28A37795224B0CBB00F9B70B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				28A37796224B0CBB00F9B70B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -625,14 +693,17 @@
 			baseConfigurationReference = 9E728C7823296B10BAA651AB /* Pods-CCQNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L9V37VTK48;
 				INFOPLIST_FILE = CCQNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ChaoQunChang.CCQNews;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coldwellbanker.KeweiMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = KeWeiMoblieDevelopment;
 				SWIFT_OBJC_BRIDGING_HEADER = "CCQNews/News-Bridge.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -644,14 +715,18 @@
 			baseConfigurationReference = 4F09BE672E561ABEB47DC80F /* Pods-CCQNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L9V37VTK48;
 				INFOPLIST_FILE = CCQNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ChaoQunChang.CCQNews;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coldwellbanker.KeweiMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = KeWeiMoblieDistribution;
 				SWIFT_OBJC_BRIDGING_HEADER = "CCQNews/News-Bridge.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

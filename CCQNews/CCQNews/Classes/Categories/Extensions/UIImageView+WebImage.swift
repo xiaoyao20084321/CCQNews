@@ -1,6 +1,6 @@
 //
 //  UIImageView+WebImage.swift
-//  传智微博
+//  常超群
 //
 //  Created by apple on 16/7/5.
 //  Copyright © 2016年 itcast. All rights reserved.
@@ -13,9 +13,17 @@ extension UIImageView {
     ///
     /// - parameter urlString:        urlString
     /// - parameter placeholderImage: 占位图像
-    /// - parameter isAvatar:         是否头像
-    func cz_setImage(urlString: String?, placeholderImage: UIImage?, isAvatar: Bool = false) {
-        
+    /// - parameter isRoundHead:         是否将圆头像变成方头像
+    func ccq_setImage(urlString: String?, placeholderImage: UIImage?, isRoundHead: Bool = false) {
+        if isRoundHead {
+            let maskPath = UIBezierPath(roundedRect: self.bounds, byRoundingCorners: .allCorners, cornerRadii: self.bounds.size)
+            let maskLayer = CAShapeLayer();
+            //设置大小
+            maskLayer.frame = self.bounds;
+            //设置图形样子
+            maskLayer.path = maskPath.cgPath;
+            self.layer.mask = maskLayer;
+        }
         // 处理 URL
         guard let urlString = urlString,
             let url = URL(string: urlString) else {
@@ -24,14 +32,6 @@ extension UIImageView {
             
             return
         }
-        
-        // 可选项只是用在 Swift，OC 有的时候用 ! 同样可以传入 nil
-        sd_setImage(with: url, placeholderImage: placeholderImage, options: [], progress: nil) { [weak self] (image, _, _, _) in
-            
-            // 完成回调 - 判断是否是头像
-            if isAvatar {
-                self?.image = image?.cz_avatarImage(size: self?.bounds.size)
-            }
-        }
+        sd_setImage(with: url, placeholderImage: placeholderImage, options: .retryFailed, completed: nil)
     }
 }

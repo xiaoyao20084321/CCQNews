@@ -6,4 +6,9 @@ target 'CCQNews' do
   pod 'SDWebImage'
   pod 'YYModel'
   pod 'MBProgressHUD'
+  pod 'MJRefresh'
+  pod 'IQKeyboardManager'
+  pod 'ZFPlayer'
+  pod 'ZFPlayer/ControlView'
+  pod 'ZFPlayer/AVPlayer'
 end

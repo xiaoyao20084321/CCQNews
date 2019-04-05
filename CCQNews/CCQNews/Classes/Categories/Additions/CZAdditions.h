@@ -13,7 +13,7 @@
 #import "UIViewController+CZAddition.h"
 
 #import "NSObject+CZRuntime.h"
-
+#import "NSObject+CCQModel.h"
 #import "NSAttributedString+CZAdditon.h"
 #import "NSString+CZHash.h"
 #import "NSString+CZBase64.h"

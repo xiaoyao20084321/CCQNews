@@ -21,4 +21,7 @@ extension CCQBaseViewController {
     @objc func setupUI() {
         
     }
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent;
+    }
 }

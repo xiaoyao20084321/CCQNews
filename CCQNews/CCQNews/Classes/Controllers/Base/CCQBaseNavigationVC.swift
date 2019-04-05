@@ -14,6 +14,9 @@ class CCQBaseNavigationVC: UINavigationController {
         super.viewDidLoad()
         // 隐藏默认的 NavigationBar
 //        navigationBar.isHidden = true
+        navigationBar.barTintColor = kCCQAppMainColor;
+        navigationBar.tintColor = UIColor.white
+        navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white]
     }
     /// 重写 push 方法，所有的 push 动作都会调用此方法！
     /// viewController 是被 push 的控制器，设置他的左侧的按钮作为返回按钮

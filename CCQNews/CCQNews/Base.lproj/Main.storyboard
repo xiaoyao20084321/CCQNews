@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Zbf-cr-ivE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Zbf-cr-ivE">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -17,10 +17,41 @@
                     <view key="view" contentMode="scaleToFill" id="pHN-qD-EuN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Ym-xH-gxW">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="omd-DD-m42">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="nqb-jo-86r" id="0ex-wN-F6Y"/>
+                                            <outlet property="delegate" destination="nqb-jo-86r" id="0yQ-Bi-RVo"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="omd-DD-m42" secondAttribute="bottom" id="3Kh-qz-naT"/>
+                                    <constraint firstAttribute="trailing" secondItem="omd-DD-m42" secondAttribute="trailing" id="Z5V-XM-rT1"/>
+                                    <constraint firstItem="omd-DD-m42" firstAttribute="top" secondItem="8Ym-xH-gxW" secondAttribute="top" id="lpA-y6-At2"/>
+                                    <constraint firstItem="omd-DD-m42" firstAttribute="leading" secondItem="8Ym-xH-gxW" secondAttribute="leading" id="uF6-eG-9lO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8Ym-xH-gxW" firstAttribute="trailing" secondItem="Bdq-MA-oyK" secondAttribute="trailing" id="4FY-DL-gPy"/>
+                            <constraint firstItem="8Ym-xH-gxW" firstAttribute="bottom" secondItem="Bdq-MA-oyK" secondAttribute="bottom" id="Cag-3X-Ktc"/>
+                            <constraint firstItem="8Ym-xH-gxW" firstAttribute="leading" secondItem="Bdq-MA-oyK" secondAttribute="leading" id="Tv5-kf-go0"/>
+                            <constraint firstItem="8Ym-xH-gxW" firstAttribute="top" secondItem="Bdq-MA-oyK" secondAttribute="top" id="smj-WS-POW"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Bdq-MA-oyK"/>
                     </view>
                     <navigationItem key="navigationItem" id="gdR-86-kdT"/>
+                    <connections>
+                        <outlet property="tableView" destination="omd-DD-m42" id="NfO-Un-BGc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gh3-Qv-5SF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -92,11 +123,11 @@
             </objects>
             <point key="canvasLocation" x="-287" y="90"/>
         </scene>
-        <!--首页-->
+        <!--图文-->
         <scene sceneID="fj1-pE-nv9">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5Hu-oD-aM5" customClass="CCQBaseNavigationVC" customModule="CCQNews" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="首页" id="nmY-Lr-G3Q"/>
+                    <tabBarItem key="tabBarItem" title="图文" id="nmY-Lr-G3Q"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="c4d-Jd-iLT">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -111,11 +142,11 @@
             </objects>
             <point key="canvasLocation" x="678" y="-646"/>
         </scene>
-        <!--赛事-->
+        <!--纯文-->
         <scene sceneID="KRZ-tJ-V1q">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hNR-Ho-C1r" customClass="CCQBaseNavigationVC" customModule="CCQNews" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="赛事" id="2Jt-ce-DaQ"/>
+                    <tabBarItem key="tabBarItem" title="纯文" id="2Jt-ce-DaQ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Wok-2F-P7V">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -130,27 +161,58 @@
             </objects>
             <point key="canvasLocation" x="678" y="90"/>
         </scene>
-        <!--Profile View Controller-->
+        <!--Videos ListVC-->
         <scene sceneID="1QF-Ld-Kvx">
             <objects>
-                <viewController id="hcT-yX-rnx" customClass="CCQProfileViewController" customModule="CCQNews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hcT-yX-rnx" customClass="CCQVideosListVC" customModule="CCQNews" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ga0-qi-TlH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xua-e6-gcS">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9Pb-SC-RMr">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="hcT-yX-rnx" id="8C6-No-EKm"/>
+                                            <outlet property="delegate" destination="hcT-yX-rnx" id="5bO-HB-ceB"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="9Pb-SC-RMr" secondAttribute="trailing" id="eAG-3g-58k"/>
+                                    <constraint firstAttribute="bottom" secondItem="9Pb-SC-RMr" secondAttribute="bottom" id="qBr-rF-nEi"/>
+                                    <constraint firstItem="9Pb-SC-RMr" firstAttribute="leading" secondItem="xua-e6-gcS" secondAttribute="leading" id="qq4-5c-DzY"/>
+                                    <constraint firstItem="9Pb-SC-RMr" firstAttribute="top" secondItem="xua-e6-gcS" secondAttribute="top" id="z6i-ZZ-nIP"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xua-e6-gcS" firstAttribute="top" secondItem="7cW-0N-RBp" secondAttribute="top" id="4Ve-yo-gVb"/>
+                            <constraint firstItem="xua-e6-gcS" firstAttribute="leading" secondItem="7cW-0N-RBp" secondAttribute="leading" id="6o7-5R-BTu"/>
+                            <constraint firstItem="xua-e6-gcS" firstAttribute="bottom" secondItem="7cW-0N-RBp" secondAttribute="bottom" id="dFQ-X2-Ef3"/>
+                            <constraint firstItem="xua-e6-gcS" firstAttribute="trailing" secondItem="7cW-0N-RBp" secondAttribute="trailing" id="u5O-eu-cg6"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="7cW-0N-RBp"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ctr-b2-Pon"/>
+                    <connections>
+                        <outlet property="tableView" destination="9Pb-SC-RMr" id="C4c-Qz-3iN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BRj-9u-nno" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1617" y="843"/>
         </scene>
-        <!--个人-->
+        <!--视频-->
         <scene sceneID="6Tv-ze-Ctb">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cgm-Zi-4QL" customClass="CCQBaseNavigationVC" customModule="CCQNews" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="个人" id="qYd-cU-FG4"/>
+                    <tabBarItem key="tabBarItem" title="视频" id="qYd-cU-FG4"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="Rar-yN-q7P"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yYJ-YP-Ncw">
