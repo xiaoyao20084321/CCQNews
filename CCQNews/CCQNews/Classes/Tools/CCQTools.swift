@@ -49,7 +49,7 @@ class CCQTools: NSObject {
         hud.mode = .text
         hud.label.text = text
         hud.label.numberOfLines = 0
-        hud.hide(animated: true, afterDelay: TimeInterval(2))
+        hud.hide(animated: true, afterDelay: TimeInterval(1))
     }
     
     /// tableView添加下拉刷新控件
@@ -98,5 +98,20 @@ class CCQTools: NSObject {
     class func endRefreshingWithNoMoreDataAtTableView(tableView: UITableView) {
         tableView.mj_footer.endRefreshingWithNoMoreData()
     }
-    
+    ///判断字符串是否为空或者全部为空格
+    class func isBlankString(string: String?) -> Bool {
+        if string == nil {
+            return true
+        }
+        if string == "" {
+            return true
+        }
+        if string == "NULL" {
+            return true
+        }
+        if string?.trimmingCharacters(in: .whitespacesAndNewlines).count == 0  {
+            return true
+        }
+        return false
+    }
 }

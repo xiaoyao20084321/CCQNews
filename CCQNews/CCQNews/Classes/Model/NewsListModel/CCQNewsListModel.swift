@@ -8,18 +8,18 @@
 
 import UIKit
 import YYModel
-class CCQNewsListModel: NSObject {
+@objcMembers class CCQNewsListModel: NSObject {
     /// 标题
-    @objc var text: String?
+    var text: String?
     /// 头像
-    @objc var header: String?
+    var header: String?
     /// 昵称
-    @objc var username: String?
+    var username: String?
     /// 图片
-    @objc var image: String?
+    var image: String?
     /// 缩略图
-    @objc var thumbnail: String?
+    var thumbnail: String?
     /// 视频播放地址
-    @objc var video: String?
+    var video: String?
     
 }

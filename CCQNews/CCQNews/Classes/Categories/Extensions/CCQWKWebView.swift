@@ -1,5 +1,5 @@
 //
-//  CCQWebView.swift
+//  CCQWKWebView.swift
 //  CCQNews
 //
 //  Created by 信义房屋网络事业部 on 2019/4/3.
@@ -8,7 +8,7 @@
 
 import UIKit
 import WebKit
-class CCQWebView: WKWebView {
+class CCQWKWebView: WKWebView {
     required init?(coder: NSCoder) {
         super.init(frame: UIScreen.main.bounds, configuration: WKWebViewConfiguration())
         self.translatesAutoresizingMaskIntoConstraints = false;

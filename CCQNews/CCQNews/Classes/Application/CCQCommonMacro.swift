@@ -7,5 +7,7 @@
 //
 
 import Foundation
+///App主渲染颜色
 let kCCQAppMainColor = UIColor.ccq_color(withHex: "#e9a72e")
-
+///往UserDefults里面存储的user字符串
+let kCCQUser = "user"

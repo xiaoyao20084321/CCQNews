@@ -32,7 +32,7 @@
                 </wkWebView>
                 <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.20000000298023224" translatesAutoresizingMaskIntoConstraints="NO" id="Y5j-DY-Cln">
                     <rect key="frame" x="0.0" y="64" width="375" height="2"/>
-                    <color key="tintColor" red="0.0" green="0.50196078430000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="0.9137254901960784" green="0.65490196078431373" blue="0.1803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="2" id="3hu-Pd-BUz"/>
                     </constraints>

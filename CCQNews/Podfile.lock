@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - FDFullscreenPopGesture (1.1)
   - IQKeyboardManager (6.2.1)
   - MBProgressHUD (1.1.0)
   - MJRefresh (3.1.16)
@@ -31,6 +32,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - FDFullscreenPopGesture
   - IQKeyboardManager
   - MBProgressHUD
   - MJRefresh
@@ -43,6 +45,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - FDFullscreenPopGesture
     - IQKeyboardManager
     - MBProgressHUD
     - MJRefresh
@@ -52,6 +55,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   IQKeyboardManager: 964638372b4a61892cc74fdfa6fd26de8c9464a2
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
@@ -59,6 +63,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   ZFPlayer: 0e68a0ac28dbd8587418cc573e826305e1f5bb38
 
-PODFILE CHECKSUM: fc41e3fab68938534eed357da8412b063f1d384a
+PODFILE CHECKSUM: d373c86deb8f173de7ed845ab1de8d123e517c07
 
 COCOAPODS: 1.5.0

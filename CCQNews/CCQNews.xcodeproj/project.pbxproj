@@ -8,13 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		283E1639225752D0006EFDA3 /* CCQCommonMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E1638225752D0006EFDA3 /* CCQCommonMacro.swift */; };
+		283E163C2258332C006EFDA3 /* CCQPersonalCenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E163B2258332C006EFDA3 /* CCQPersonalCenterVC.swift */; };
+		283E163F22583BDB006EFDA3 /* CCQPersonalCenterHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E163E22583BDB006EFDA3 /* CCQPersonalCenterHeaderView.swift */; };
+		283E164122583BEA006EFDA3 /* CCQPersonalCenterHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283E164022583BEA006EFDA3 /* CCQPersonalCenterHeaderView.xib */; };
+		283E164622584A80006EFDA3 /* CCQPersonalCenterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E164422584A80006EFDA3 /* CCQPersonalCenterCell.swift */; };
+		283E164722584A80006EFDA3 /* CCQPersonalCenterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283E164522584A80006EFDA3 /* CCQPersonalCenterCell.xib */; };
+		283E164A22597C46006EFDA3 /* CCQUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E164922597C46006EFDA3 /* CCQUser.swift */; };
+		283E164E2259896D006EFDA3 /* CCQLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E164C2259896D006EFDA3 /* CCQLoginVC.swift */; };
+		283E164F2259896D006EFDA3 /* CCQLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283E164D2259896D006EFDA3 /* CCQLoginVC.xib */; };
+		283E165322599889006EFDA3 /* CCQRegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E165122599889006EFDA3 /* CCQRegisterVC.swift */; };
+		283E165422599889006EFDA3 /* CCQRegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283E165222599889006EFDA3 /* CCQRegisterVC.xib */; };
+		283E1657225A13B7006EFDA3 /* CCQSystemAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 283E1655225A13B7006EFDA3 /* CCQSystemAlertView.m */; };
+		283E1659225A21C1006EFDA3 /* CCQWKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E1658225A21C0006EFDA3 /* CCQWKWebView.swift */; };
+		283E165C225B1EA2006EFDA3 /* yinsizhengce.html in Resources */ = {isa = PBXBuildFile; fileRef = 283E165B225B1EA2006EFDA3 /* yinsizhengce.html */; };
 		2891DF24224F0DDC00C2F048 /* CCQHttpRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF23224F0DDC00C2F048 /* CCQHttpRequestManager.swift */; };
 		2891DF26224F18CA00C2F048 /* CCQURLSessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF25224F18CA00C2F048 /* CCQURLSessionDataTask.swift */; };
 		2891DF28225062EE00C2F048 /* CCQURLConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF27225062EE00C2F048 /* CCQURLConfig.swift */; };
 		2891DF2D2252206D00C2F048 /* CCQTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF2C2252206D00C2F048 /* CCQTools.swift */; };
 		2891DF372253602200C2F048 /* CCQNewsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF362253602200C2F048 /* CCQNewsListModel.swift */; };
 		2891DF3A22536FAC00C2F048 /* NSObject+CCQModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF3922536FAC00C2F048 /* NSObject+CCQModel.m */; };
-		2891DF3E2254BA0500C2F048 /* CCQWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF3D2254BA0500C2F048 /* CCQWebView.swift */; };
 		2891DF422254BB2D00C2F048 /* CCQNewsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF402254BB2D00C2F048 /* CCQNewsDetailVC.swift */; };
 		2891DF432254BB2D00C2F048 /* CCQNewsDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2891DF412254BB2D00C2F048 /* CCQNewsDetailVC.xib */; };
 		2891DF472255CFDB00C2F048 /* CCQHomeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF452255CFDB00C2F048 /* CCQHomeListCell.swift */; };
@@ -47,11 +59,29 @@
 		28A3783A224B224C00F9B70B /* CCQBaseNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A37837224B224C00F9B70B /* CCQBaseNavigationVC.swift */; };
 		28A3783B224B224C00F9B70B /* CCQBaseTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A37838224B224C00F9B70B /* CCQBaseTabBarVC.swift */; };
 		28A3783C224B224C00F9B70B /* CCQBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A37839224B224C00F9B70B /* CCQBaseViewController.swift */; };
+		28F7CB5C225B3CBD0035FBDE /* CCQAboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F7CB5A225B3CBD0035FBDE /* CCQAboutVC.swift */; };
+		28F7CB5D225B3CBD0035FBDE /* CCQAboutVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F7CB5B225B3CBD0035FBDE /* CCQAboutVC.xib */; };
+		28F7CB61225B474B0035FBDE /* CCQFeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F7CB5F225B474B0035FBDE /* CCQFeedbackVC.swift */; };
+		28F7CB62225B474B0035FBDE /* CCQFeedbackVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F7CB60225B474B0035FBDE /* CCQFeedbackVC.xib */; };
 		7682E745E3A0A550FB121430 /* Pods_CCQNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A3784A224B405500F9B70B /* Pods_CCQNews.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		283E1638225752D0006EFDA3 /* CCQCommonMacro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQCommonMacro.swift; sourceTree = "<group>"; };
+		283E163B2258332C006EFDA3 /* CCQPersonalCenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQPersonalCenterVC.swift; sourceTree = "<group>"; };
+		283E163E22583BDB006EFDA3 /* CCQPersonalCenterHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQPersonalCenterHeaderView.swift; sourceTree = "<group>"; };
+		283E164022583BEA006EFDA3 /* CCQPersonalCenterHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCQPersonalCenterHeaderView.xib; sourceTree = "<group>"; };
+		283E164422584A80006EFDA3 /* CCQPersonalCenterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQPersonalCenterCell.swift; sourceTree = "<group>"; };
+		283E164522584A80006EFDA3 /* CCQPersonalCenterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCQPersonalCenterCell.xib; sourceTree = "<group>"; };
+		283E164922597C46006EFDA3 /* CCQUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQUser.swift; sourceTree = "<group>"; };
+		283E164C2259896D006EFDA3 /* CCQLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQLoginVC.swift; sourceTree = "<group>"; };
+		283E164D2259896D006EFDA3 /* CCQLoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCQLoginVC.xib; sourceTree = "<group>"; };
+		283E165122599889006EFDA3 /* CCQRegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQRegisterVC.swift; sourceTree = "<group>"; };
+		283E165222599889006EFDA3 /* CCQRegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCQRegisterVC.xib; sourceTree = "<group>"; };
+		283E1655225A13B7006EFDA3 /* CCQSystemAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCQSystemAlertView.m; sourceTree = "<group>"; };
+		283E1656225A13B7006EFDA3 /* CCQSystemAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCQSystemAlertView.h; sourceTree = "<group>"; };
+		283E1658225A21C0006EFDA3 /* CCQWKWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCQWKWebView.swift; sourceTree = "<group>"; };
+		283E165B225B1EA2006EFDA3 /* yinsizhengce.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = yinsizhengce.html; sourceTree = "<group>"; };
 		2891DF23224F0DDC00C2F048 /* CCQHttpRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQHttpRequestManager.swift; sourceTree = "<group>"; };
 		2891DF25224F18CA00C2F048 /* CCQURLSessionDataTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQURLSessionDataTask.swift; sourceTree = "<group>"; };
 		2891DF27225062EE00C2F048 /* CCQURLConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQURLConfig.swift; sourceTree = "<group>"; };
@@ -59,7 +89,6 @@
 		2891DF362253602200C2F048 /* CCQNewsListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQNewsListModel.swift; sourceTree = "<group>"; };
 		2891DF3822536FAC00C2F048 /* NSObject+CCQModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+CCQModel.h"; sourceTree = "<group>"; };
 		2891DF3922536FAC00C2F048 /* NSObject+CCQModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CCQModel.m"; sourceTree = "<group>"; };
-		2891DF3D2254BA0500C2F048 /* CCQWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQWebView.swift; sourceTree = "<group>"; };
 		2891DF402254BB2D00C2F048 /* CCQNewsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQNewsDetailVC.swift; sourceTree = "<group>"; };
 		2891DF412254BB2D00C2F048 /* CCQNewsDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCQNewsDetailVC.xib; sourceTree = "<group>"; };
 		2891DF452255CFDB00C2F048 /* CCQHomeListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQHomeListCell.swift; sourceTree = "<group>"; };
@@ -114,6 +143,10 @@
 		28A37846224B402200F9B70B /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A37848224B402900F9B70B /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A3784A224B405500F9B70B /* Pods_CCQNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CCQNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F7CB5A225B3CBD0035FBDE /* CCQAboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQAboutVC.swift; sourceTree = "<group>"; };
+		28F7CB5B225B3CBD0035FBDE /* CCQAboutVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCQAboutVC.xib; sourceTree = "<group>"; };
+		28F7CB5F225B474B0035FBDE /* CCQFeedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQFeedbackVC.swift; sourceTree = "<group>"; };
+		28F7CB60225B474B0035FBDE /* CCQFeedbackVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCQFeedbackVC.xib; sourceTree = "<group>"; };
 		4F09BE672E561ABEB47DC80F /* Pods-CCQNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCQNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCQNews/Pods-CCQNews.release.xcconfig"; sourceTree = "<group>"; };
 		9E728C7823296B10BAA651AB /* Pods-CCQNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCQNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCQNews/Pods-CCQNews.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +163,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		283E163A22583316006EFDA3 /* CCQPersonalCenterVC */ = {
+			isa = PBXGroup;
+			children = (
+				283E163B2258332C006EFDA3 /* CCQPersonalCenterVC.swift */,
+			);
+			path = CCQPersonalCenterVC;
+			sourceTree = "<group>";
+		};
+		283E163D22583BB5006EFDA3 /* CCQPersonalCenterHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				283E163E22583BDB006EFDA3 /* CCQPersonalCenterHeaderView.swift */,
+				283E164022583BEA006EFDA3 /* CCQPersonalCenterHeaderView.xib */,
+			);
+			path = CCQPersonalCenterHeaderView;
+			sourceTree = "<group>";
+		};
+		283E164322584A67006EFDA3 /* CCQPersonalCenterCell */ = {
+			isa = PBXGroup;
+			children = (
+				283E164422584A80006EFDA3 /* CCQPersonalCenterCell.swift */,
+				283E164522584A80006EFDA3 /* CCQPersonalCenterCell.xib */,
+			);
+			path = CCQPersonalCenterCell;
+			sourceTree = "<group>";
+		};
+		283E164822597C32006EFDA3 /* CCQUser */ = {
+			isa = PBXGroup;
+			children = (
+				283E164922597C46006EFDA3 /* CCQUser.swift */,
+			);
+			path = CCQUser;
+			sourceTree = "<group>";
+		};
+		283E164B22598952006EFDA3 /* CCQLoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				283E164C2259896D006EFDA3 /* CCQLoginVC.swift */,
+				283E164D2259896D006EFDA3 /* CCQLoginVC.xib */,
+			);
+			path = CCQLoginVC;
+			sourceTree = "<group>";
+		};
+		283E1650225997E4006EFDA3 /* CCQRegisterVC */ = {
+			isa = PBXGroup;
+			children = (
+				283E165122599889006EFDA3 /* CCQRegisterVC.swift */,
+				283E165222599889006EFDA3 /* CCQRegisterVC.xib */,
+			);
+			path = CCQRegisterVC;
+			sourceTree = "<group>";
+		};
+		283E165A225B1EA2006EFDA3 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				283E165B225B1EA2006EFDA3 /* yinsizhengce.html */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
 		2891DF22224F0D7500C2F048 /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,7 +325,6 @@
 			children = (
 				2891DF22224F0D7500C2F048 /* NetWork */,
 				2891DF2C2252206D00C2F048 /* CCQTools.swift */,
-				2891DF3D2254BA0500C2F048 /* CCQWebView.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -240,6 +332,7 @@
 		28A377E9224B0F8700F9B70B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				283E165A225B1EA2006EFDA3 /* html */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -247,6 +340,7 @@
 		28A377EA224B0F8700F9B70B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				283E164822597C32006EFDA3 /* CCQUser */,
 				2891DF352253600D00C2F048 /* NewsListModel */,
 			);
 			path = Model;
@@ -269,7 +363,12 @@
 				28A377ED224B0F8700F9B70B /* Home */,
 				28A377EF224B0F8700F9B70B /* Discover */,
 				2891DF532256E61100C2F048 /* CCQVideosListVC */,
+				283E163A22583316006EFDA3 /* CCQPersonalCenterVC */,
 				2891DF3F2254BAE700C2F048 /* CCQNewsDetailVC */,
+				283E164B22598952006EFDA3 /* CCQLoginVC */,
+				283E1650225997E4006EFDA3 /* CCQRegisterVC */,
+				28F7CB59225B3C940035FBDE /* CCQAboutVC */,
+				28F7CB5E225B47390035FBDE /* CCQFeedbackVC */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -295,6 +394,8 @@
 			children = (
 				2891DF442255CFB800C2F048 /* CCQHomeListCell */,
 				2891DF4E22560B5E00C2F048 /* CCQTextJokesListCell */,
+				283E163D22583BB5006EFDA3 /* CCQPersonalCenterHeaderView */,
+				283E164322584A67006EFDA3 /* CCQPersonalCenterCell */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -311,6 +412,8 @@
 		28A377FB224B0F8700F9B70B /* Additions */ = {
 			isa = PBXGroup;
 			children = (
+				283E1656225A13B7006EFDA3 /* CCQSystemAlertView.h */,
+				283E1655225A13B7006EFDA3 /* CCQSystemAlertView.m */,
 				28A37811224B0F8700F9B70B /* CZAdditions.h */,
 				28A37806224B0F8700F9B70B /* NSArray+Log.h */,
 				28A37813224B0F8700F9B70B /* NSArray+Log.m */,
@@ -348,6 +451,7 @@
 				28A37816224B0F8700F9B70B /* UIImage+Extensions.swift */,
 				28A37817224B0F8700F9B70B /* UIBarButtonItem+Extensions.swift */,
 				28A37818224B0F8700F9B70B /* UIImageView+WebImage.swift */,
+				283E1658225A21C0006EFDA3 /* CCQWKWebView.swift */,
 				28A37819224B0F8700F9B70B /* Bundle+Extensions.swift */,
 				28A3781A224B0F8700F9B70B /* Date+Extensions.swift */,
 			);
@@ -382,6 +486,24 @@
 				28A37840224B3F6500F9B70B /* SDWebImage.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28F7CB59225B3C940035FBDE /* CCQAboutVC */ = {
+			isa = PBXGroup;
+			children = (
+				28F7CB5A225B3CBD0035FBDE /* CCQAboutVC.swift */,
+				28F7CB5B225B3CBD0035FBDE /* CCQAboutVC.xib */,
+			);
+			path = CCQAboutVC;
+			sourceTree = "<group>";
+		};
+		28F7CB5E225B47390035FBDE /* CCQFeedbackVC */ = {
+			isa = PBXGroup;
+			children = (
+				28F7CB5F225B474B0035FBDE /* CCQFeedbackVC.swift */,
+				28F7CB60225B474B0035FBDE /* CCQFeedbackVC.xib */,
+			);
+			path = CCQFeedbackVC;
 			sourceTree = "<group>";
 		};
 		5C23AA9F0C44ABA38F466001 /* Pods */ = {
@@ -454,9 +576,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283E165C225B1EA2006EFDA3 /* yinsizhengce.html in Resources */,
+				283E164F2259896D006EFDA3 /* CCQLoginVC.xib in Resources */,
+				283E164122583BEA006EFDA3 /* CCQPersonalCenterHeaderView.xib in Resources */,
 				2891DF482255CFDB00C2F048 /* CCQHomeListCell.xib in Resources */,
+				283E165422599889006EFDA3 /* CCQRegisterVC.xib in Resources */,
 				2891DF5222560B6E00C2F048 /* CCQTextJokesListCell.xib in Resources */,
+				283E164722584A80006EFDA3 /* CCQPersonalCenterCell.xib in Resources */,
+				28F7CB62225B474B0035FBDE /* CCQFeedbackVC.xib in Resources */,
 				2891DF432254BB2D00C2F048 /* CCQNewsDetailVC.xib in Resources */,
+				28F7CB5D225B3CBD0035FBDE /* CCQAboutVC.xib in Resources */,
 				28A37794224B0CBB00F9B70B /* Assets.xcassets in Resources */,
 				28A37792224B0CB800F9B70B /* Main.storyboard in Resources */,
 			);
@@ -473,6 +602,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CCQNews/Pods-CCQNews-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
@@ -483,6 +613,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDFullscreenPopGesture.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
@@ -520,16 +651,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283E164622584A80006EFDA3 /* CCQPersonalCenterCell.swift in Sources */,
 				28A37824224B0F8800F9B70B /* UIView+CZAddition.m in Sources */,
 				28A3783A224B224C00F9B70B /* CCQBaseNavigationVC.swift in Sources */,
 				28A37830224B0F8800F9B70B /* UIBarButtonItem+Extensions.swift in Sources */,
 				2891DF5122560B6E00C2F048 /* CCQTextJokesListCell.swift in Sources */,
 				28A37828224B0F8800F9B70B /* NSString+CZPath.m in Sources */,
+				28F7CB5C225B3CBD0035FBDE /* CCQAboutVC.swift in Sources */,
 				28A37833224B0F8800F9B70B /* Date+Extensions.swift in Sources */,
 				28A37823224B0F8800F9B70B /* UIColor+CZAddition.m in Sources */,
 				28A37827224B0F8800F9B70B /* NSString+CZBase64.m in Sources */,
 				28A37832224B0F8800F9B70B /* Bundle+Extensions.swift in Sources */,
+				28F7CB61225B474B0035FBDE /* CCQFeedbackVC.swift in Sources */,
 				28A37835224B0FFD00F9B70B /* AppDelegate.swift in Sources */,
+				283E1657225A13B7006EFDA3 /* CCQSystemAlertView.m in Sources */,
 				28A37826224B0F8800F9B70B /* UILabel+CZAddition.m in Sources */,
 				28A3782A224B0F8800F9B70B /* NSObject+CZRuntime.m in Sources */,
 				2891DF26224F18CA00C2F048 /* CCQURLSessionDataTask.swift in Sources */,
@@ -539,6 +674,7 @@
 				2891DF2D2252206D00C2F048 /* CCQTools.swift in Sources */,
 				2891DF422254BB2D00C2F048 /* CCQNewsDetailVC.swift in Sources */,
 				2891DF372253602200C2F048 /* CCQNewsListModel.swift in Sources */,
+				283E164A22597C46006EFDA3 /* CCQUser.swift in Sources */,
 				2891DF28225062EE00C2F048 /* CCQURLConfig.swift in Sources */,
 				2891DF472255CFDB00C2F048 /* CCQHomeListCell.swift in Sources */,
 				2891DF3A22536FAC00C2F048 /* NSObject+CCQModel.m in Sources */,
@@ -550,11 +686,15 @@
 				2891DF592256E65C00C2F048 /* CCQVideosListVC.swift in Sources */,
 				28A3782E224B0F8800F9B70B /* NSArray+Log.m in Sources */,
 				2891DF24224F0DDC00C2F048 /* CCQHttpRequestManager.swift in Sources */,
-				2891DF3E2254BA0500C2F048 /* CCQWebView.swift in Sources */,
 				28A3781D224B0F8700F9B70B /* CCQDiscoverViewController.swift in Sources */,
 				28A3782C224B0F8800F9B70B /* NSString+CZHash.m in Sources */,
+				283E163F22583BDB006EFDA3 /* CCQPersonalCenterHeaderView.swift in Sources */,
+				283E165322599889006EFDA3 /* CCQRegisterVC.swift in Sources */,
+				283E163C2258332C006EFDA3 /* CCQPersonalCenterVC.swift in Sources */,
 				28A37825224B0F8800F9B70B /* UIScreen+CZAddition.m in Sources */,
 				28A37829224B0F8800F9B70B /* UIButton+CZAddition.m in Sources */,
+				283E164E2259896D006EFDA3 /* CCQLoginVC.swift in Sources */,
+				283E1659225A21C1006EFDA3 /* CCQWKWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -697,6 +837,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = L9V37VTK48;
 				INFOPLIST_FILE = CCQNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -720,6 +861,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = L9V37VTK48;
 				INFOPLIST_FILE = CCQNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
