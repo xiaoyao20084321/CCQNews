@@ -2,8 +2,8 @@
 //  CCQSystemAlertView.m
 //  SinYiHomeApp
 //
-//  Created by 信义房屋网络事业部 on 16/6/12.
-//  Copyright © 2016年 常超群. All rights reserved.
+//  Created by test on 16/6/12.
+//  Copyright © 2016年 test1. All rights reserved.
 //
 
 #import "CCQSystemAlertView.h"
