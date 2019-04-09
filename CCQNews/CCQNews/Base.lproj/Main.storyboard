@@ -128,7 +128,7 @@
         <scene sceneID="fj1-pE-nv9">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5Hu-oD-aM5" customClass="CCQBaseNavigationVC" customModule="CCQNews" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="图文" id="nmY-Lr-G3Q"/>
+                    <tabBarItem key="tabBarItem" title="图文" image="icon_tabbar_image" id="nmY-Lr-G3Q"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="c4d-Jd-iLT">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -147,7 +147,7 @@
         <scene sceneID="KRZ-tJ-V1q">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hNR-Ho-C1r" customClass="CCQBaseNavigationVC" customModule="CCQNews" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="纯文" id="2Jt-ce-DaQ"/>
+                    <tabBarItem key="tabBarItem" title="纯文" image="icon_tabbar_text" id="2Jt-ce-DaQ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Wok-2F-P7V">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -263,7 +263,7 @@
         <scene sceneID="6Tv-ze-Ctb">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cgm-Zi-4QL" customClass="CCQBaseNavigationVC" customModule="CCQNews" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="视频" id="qYd-cU-FG4"/>
+                    <tabBarItem key="tabBarItem" title="视频" image="icon_tabbar_video" id="qYd-cU-FG4"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="Rar-yN-q7P"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yYJ-YP-Ncw">
@@ -283,7 +283,7 @@
         <scene sceneID="mfF-Qz-zwq">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="qkz-ox-ukE" customClass="CCQBaseNavigationVC" customModule="CCQNews" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="个人" id="o8d-Bm-FIx"/>
+                    <tabBarItem key="tabBarItem" title="个人" image="icon_tabbar_mine" id="o8d-Bm-FIx"/>
                     <toolbarItems/>
                     <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lgv-cC-Z4w">
@@ -299,4 +299,10 @@
             <point key="canvasLocation" x="678" y="1561"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon_tabbar_image" width="30" height="30"/>
+        <image name="icon_tabbar_mine" width="30" height="30"/>
+        <image name="icon_tabbar_text" width="30" height="30"/>
+        <image name="icon_tabbar_video" width="30" height="30"/>
+    </resources>
 </document>

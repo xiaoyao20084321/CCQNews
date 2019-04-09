@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="CCQVideoListCell" customModule="CCQNews" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="270"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="269.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ATk-N8-jrX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="269.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HtL-Dv-1xt">
+                                <rect key="frame" x="10" y="10" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Jwf-IK-sRh"/>
+                                    <constraint firstAttribute="width" constant="40" id="tHQ-hX-jKc"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="背后的温柔" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMd-6W-uvh">
+                                <rect key="frame" x="65" y="19.5" width="245" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="红色小车,我早已经看穿一切" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4s-Vz-1up">
+                                <rect key="frame" x="10" y="60" width="300" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" tag="100" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9zQ-Hv-pSG">
+                                <rect key="frame" x="10" y="90.5" width="300" height="168.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9zQ-Hv-pSG" secondAttribute="height" multiplier="16:9" priority="750" id="hyU-W7-rB1"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="X4s-Vz-1up" firstAttribute="top" secondItem="HtL-Dv-1xt" secondAttribute="bottom" constant="10" id="HNl-Fo-x36"/>
+                            <constraint firstAttribute="trailing" secondItem="X4s-Vz-1up" secondAttribute="trailing" constant="10" id="Hn0-Zr-65R"/>
+                            <constraint firstAttribute="trailing" secondItem="9zQ-Hv-pSG" secondAttribute="trailing" constant="10" id="WRb-Ar-MPK"/>
+                            <constraint firstAttribute="trailing" secondItem="HMd-6W-uvh" secondAttribute="trailing" constant="10" id="axs-g7-IQN"/>
+                            <constraint firstItem="HtL-Dv-1xt" firstAttribute="leading" secondItem="ATk-N8-jrX" secondAttribute="leading" constant="10" id="cjB-sC-Wml"/>
+                            <constraint firstItem="X4s-Vz-1up" firstAttribute="leading" secondItem="ATk-N8-jrX" secondAttribute="leading" constant="10" id="cqa-3a-bMt"/>
+                            <constraint firstAttribute="bottom" secondItem="9zQ-Hv-pSG" secondAttribute="bottom" constant="10.5" id="j6t-Uh-WJ9"/>
+                            <constraint firstItem="HMd-6W-uvh" firstAttribute="centerY" secondItem="HtL-Dv-1xt" secondAttribute="centerY" id="jhr-73-hZs"/>
+                            <constraint firstItem="9zQ-Hv-pSG" firstAttribute="top" secondItem="X4s-Vz-1up" secondAttribute="bottom" constant="10.5" id="l2k-Y2-v57"/>
+                            <constraint firstItem="HMd-6W-uvh" firstAttribute="leading" secondItem="HtL-Dv-1xt" secondAttribute="trailing" constant="15" id="qu4-to-ZOw"/>
+                            <constraint firstItem="HtL-Dv-1xt" firstAttribute="top" secondItem="ATk-N8-jrX" secondAttribute="top" constant="10" id="tAn-US-ETh"/>
+                            <constraint firstItem="9zQ-Hv-pSG" firstAttribute="leading" secondItem="ATk-N8-jrX" secondAttribute="leading" constant="10" id="tWz-Lv-APC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ATk-N8-jrX" secondAttribute="bottom" id="ADj-VP-Yhu"/>
+                    <constraint firstItem="ATk-N8-jrX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="CGx-Jl-cJr"/>
+                    <constraint firstItem="ATk-N8-jrX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="j4A-sy-Ayx"/>
+                    <constraint firstAttribute="trailing" secondItem="ATk-N8-jrX" secondAttribute="trailing" id="ppJ-C9-LTX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="contentImageView" destination="9zQ-Hv-pSG" id="TKb-I9-BRa"/>
+                <outlet property="contentLabel" destination="X4s-Vz-1up" id="eJL-wF-p1l"/>
+                <outlet property="headerImageView" destination="HtL-Dv-1xt" id="JHo-jC-SrQ"/>
+                <outlet property="nickNameLabel" destination="HMd-6W-uvh" id="qJ6-zM-xaq"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

@@ -23,7 +23,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cqT-i2-jAW">
                     <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_userHeader" translatesAutoresizingMaskIntoConstraints="NO" id="k8a-LJ-aOk">
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_appIcon" translatesAutoresizingMaskIntoConstraints="NO" id="k8a-LJ-aOk">
                             <rect key="frame" x="152.5" y="65" width="70" height="70"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="70" id="0va-Mt-2qf"/>
@@ -90,6 +90,6 @@
         </view>
     </objects>
     <resources>
-        <image name="icon_userHeader" width="70" height="70"/>
+        <image name="icon_appIcon" width="90" height="90"/>
     </resources>
 </document>

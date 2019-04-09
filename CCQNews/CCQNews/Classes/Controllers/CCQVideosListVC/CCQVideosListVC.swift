@@ -51,7 +51,7 @@ extension CCQVideosListVC {
         tableView.mj_footer.isHidden = true;
         tableView.estimatedRowHeight = 270
         tableView.tableFooterView = UIView()
-        tableView.register(UINib(nibName: "CCQHomeListCell", bundle: nil), forCellReuseIdentifier: videosListCellIDF)
+        tableView.register(UINib(nibName: "CCQVideoListCell", bundle: nil), forCellReuseIdentifier: videosListCellIDF)
         setupZFPlayer()
         CCQTools.beginDropDownRefreshingAtTableView(tableView: tableView)
     }
@@ -180,8 +180,12 @@ extension CCQVideosListVC: UITableViewDataSource, UITableViewDelegate {
         return self.NewsModelList.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = self.tableView.dequeueReusableCell(withIdentifier: videosListCellIDF, for: indexPath) as! CCQHomeListCell
+        let cell = self.tableView.dequeueReusableCell(withIdentifier: videosListCellIDF, for: indexPath) as! CCQVideoListCell
+        cell.indexPath = indexPath
         cell.newsListModel = self.NewsModelList[indexPath.row]
+        cell.playVideo = {[weak self](playIndexPath:IndexPath) in
+            self?.playTheVideoAtIndexPath(indexPath: playIndexPath, scrollToTop: false)
+        }
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

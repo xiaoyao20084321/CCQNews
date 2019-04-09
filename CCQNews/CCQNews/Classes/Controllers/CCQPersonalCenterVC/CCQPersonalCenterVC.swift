@@ -49,8 +49,10 @@ extension CCQPersonalCenterVC {
     }
     @objc func logout(sender: UIButton) {
         CCQSystemAlertView.showSystemalertView(withTitle: "提示", message: "确定退出此账号?", contentArray: ["取消", "确定"], controller: self) { [weak self](index: Int) in
-            CCQUser.shared.updataUser(dict: ["" : "" as AnyObject])
-            self?.tabBarController?.selectedIndex = 0
+            if index != 0 {
+                CCQUser.shared.updataUser(dict: ["" : "" as AnyObject])
+                self?.tabBarController?.selectedIndex = 0
+            }
         }
     }
 }
