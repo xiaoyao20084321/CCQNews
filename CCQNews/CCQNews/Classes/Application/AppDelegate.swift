@@ -7,7 +7,6 @@
 //
 
 import UIKit
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,8 +14,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+
         ///获取UserDefaults中的user数据
         CCQUser.shared.updataUser(dict: UserDefaults.standard.value(forKey: kCCQUser) as? [String : AnyObject] ?? ["" : "" as AnyObject])
+        ///添加极光推送
+        addJpush(application, didFinishLaunchingWithOptions: launchOptions)
+        ///根据参数跳转vc, 参数在userDefult里面的,参数由推送获得
+        jumpVC()
         // Override point for customization after application launch.
         return true
     }
@@ -42,7 +46,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
+    ///根据参数跳转vc
+    func jumpVC() {
+        window = UIWindow(frame: UIScreen.main.bounds)
+        if UserDefaults.standard.value(forKey: "pushUrlSwitch") as? String == "1" {
+            let webViewVC = SYWKWebViewVC(nibName: "SYWKWebViewVC", bundle: nil)
+            webViewVC.urlString = UserDefaults.standard.value(forKey: "pushUrl") as? String
+            let ccqNaviVC = CCQBaseNavigationVC(rootViewController: webViewVC)
+            window?.rootViewController = ccqNaviVC
+        } else {
+            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+            let ccqTabbar = storyboard.instantiateViewController(withIdentifier: "CCQTabbar") as? CCQBaseTabBarVC
+            window?.rootViewController = ccqTabbar
+        }
+        window?.backgroundColor = UIColor.white
+        window?.makeKeyAndVisible()
+    }
 
 }
 

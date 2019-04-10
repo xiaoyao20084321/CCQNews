@@ -12,4 +12,5 @@ target 'CCQNews' do
   pod 'ZFPlayer/ControlView'
   pod 'ZFPlayer/AVPlayer'
   pod 'FDFullscreenPopGesture'
+  pod 'JPush'
 end

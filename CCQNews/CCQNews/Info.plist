@@ -44,5 +44,15 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>mqq</string>
+        <string>mqqapi</string>
+        <string>mqqwpa</string>
+        <string>weixin</string>
+        <string>wechat</string>
+        <string>alipay</string>
+        <string>alipays</string>
+    </array>
 </dict>
 </plist>

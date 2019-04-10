@@ -101,6 +101,12 @@ extension CCQHomeViewController: UITableViewDataSource, UITableViewDelegate {
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+//        let newsDetailVC = SYWKWebViewVC(nibName: "SYWKWebViewVC", bundle: nil)
+//        newsDetailVC.urlString = "http://www.scdgj.com/danyemian.html"
+//
+//        navigationController?.pushViewController(newsDetailVC, animated: true)
+        
         let newsDetailVC = CCQNewsDetailVC(nibName: "CCQNewsDetailVC", bundle: nil)
         newsDetailVC.urlStrig = self.NewsModelList[indexPath.row].image
         navigationController?.pushViewController(newsDetailVC, animated: true)

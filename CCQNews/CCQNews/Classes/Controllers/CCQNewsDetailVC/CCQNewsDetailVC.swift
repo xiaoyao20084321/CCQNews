@@ -64,7 +64,26 @@ extension CCQNewsDetailVC: WKNavigationDelegate, WKUIDelegate {
         }
         return nil
     }
-
+//    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
+//        if let string = navigationAction.request.url?.absoluteString, let url =  navigationAction.request.url {
+//            if string.hasPrefix("https://itunes.apple.com") {
+//                if UIApplication.shared.canOpenURL(url) {
+//                    UIApplication.shared.openURL(url)
+//                }
+//                decisionHandler(WKNavigationActionPolicy.cancel);
+//                return
+//            }
+//            if string.contains("mqq://") || string.contains("mqqapi://") || string.contains("mqqwpa://") || string.contains("weixin://") || string.contains("wechat://") || string.contains("alipay://") || string.contains("alipays://") {
+//                if UIApplication.shared.canOpenURL(url) {
+//                    UIApplication.shared.openURL(url)
+//                }
+//                decisionHandler(WKNavigationActionPolicy.cancel);
+//                return
+//            }
+//        }
+//
+//
+//    }
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         if keyPath == "estimatedProgress"{
             progressView.alpha = 1.0
