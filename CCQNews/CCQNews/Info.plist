@@ -44,6 +44,14 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    
+    <key>NSCameraUsageDescription</key>
+    <string>我们将使用您的相机，以便您可以分享的自己图文趣事</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>我们将使用您的相册，以便您可以分享的自己图文趣事</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>我们将使用您的相册，以便您可以分享的自己图文趣事</string>
+    
     <key>LSApplicationQueriesSchemes</key>
     <array>
         <string>mqq</string>

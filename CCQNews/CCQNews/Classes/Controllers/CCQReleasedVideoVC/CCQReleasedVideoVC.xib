@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CCQReleasedVideoVC" customModule="CCQNews" customModuleProvider="target">
+            <connections>
+                <outlet property="imageBtn" destination="9zb-5u-hgz" id="hb1-8R-be0"/>
+                <outlet property="textView" destination="gMU-cx-L18" id="xRB-Bp-KEt"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GbT-m6-9Vj">
+                    <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gMU-cx-L18" customClass="IQTextView">
+                            <rect key="frame" x="10" y="10" width="355" height="100"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="S3P-9Z-2Cl"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="分享新鲜事..."/>
+                            </userDefinedRuntimeAttributes>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9zb-5u-hgz">
+                            <rect key="frame" x="10" y="120" width="100" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="F23-Jy-zLd"/>
+                                <constraint firstAttribute="width" constant="100" id="c0d-Ur-bzK"/>
+                            </constraints>
+                            <state key="normal" image="icon_add_image"/>
+                            <connections>
+                                <action selector="addImage:" destination="-1" eventType="touchUpInside" id="2cE-9t-qZz"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="gMU-cx-L18" firstAttribute="leading" secondItem="GbT-m6-9Vj" secondAttribute="leading" constant="10" id="1yX-5h-S7t"/>
+                        <constraint firstAttribute="trailing" secondItem="gMU-cx-L18" secondAttribute="trailing" constant="10" id="Gne-Ww-Op8"/>
+                        <constraint firstItem="gMU-cx-L18" firstAttribute="top" secondItem="GbT-m6-9Vj" secondAttribute="top" constant="10" id="YPj-lX-VZ2"/>
+                        <constraint firstItem="9zb-5u-hgz" firstAttribute="top" secondItem="gMU-cx-L18" secondAttribute="bottom" constant="10" id="ZD1-xE-Xem"/>
+                        <constraint firstItem="9zb-5u-hgz" firstAttribute="leading" secondItem="gMU-cx-L18" secondAttribute="leading" id="c4v-Xo-3D8"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="GbT-m6-9Vj" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Bfv-gL-9ph"/>
+                <constraint firstItem="GbT-m6-9Vj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="D8o-kl-18y"/>
+                <constraint firstItem="GbT-m6-9Vj" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="Gno-lZ-UPu"/>
+                <constraint firstItem="GbT-m6-9Vj" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="ZJH-XF-7hN"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_add_image" width="100" height="100"/>
+    </resources>
+</document>

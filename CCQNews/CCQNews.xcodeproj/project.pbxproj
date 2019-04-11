@@ -26,6 +26,12 @@
 		2878826E225CACBD0057E003 /* CCQPush+AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2878826D225CACBD0057E003 /* CCQPush+AppDelegate.swift */; };
 		28788273225CBBFF0057E003 /* SYWKWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28788270225CBBFF0057E003 /* SYWKWebViewVC.m */; };
 		28788274225CBBFF0057E003 /* SYWKWebViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28788271225CBBFF0057E003 /* SYWKWebViewVC.xib */; };
+		28788278225DB2E20057E003 /* CCQReleasedTextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28788276225DB2E10057E003 /* CCQReleasedTextVC.swift */; };
+		28788279225DB2E20057E003 /* CCQReleasedTextVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28788277225DB2E20057E003 /* CCQReleasedTextVC.xib */; };
+		2878827D225F045F0057E003 /* CCQReleasedImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2878827B225F045F0057E003 /* CCQReleasedImageVC.swift */; };
+		2878827E225F045F0057E003 /* CCQReleasedImageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2878827C225F045F0057E003 /* CCQReleasedImageVC.xib */; };
+		28788283225F16BE0057E003 /* CCQReleasedVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28788281225F16BE0057E003 /* CCQReleasedVideoVC.swift */; };
+		28788284225F16BE0057E003 /* CCQReleasedVideoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28788282225F16BE0057E003 /* CCQReleasedVideoVC.xib */; };
 		2891DF24224F0DDC00C2F048 /* CCQHttpRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF23224F0DDC00C2F048 /* CCQHttpRequestManager.swift */; };
 		2891DF26224F18CA00C2F048 /* CCQURLSessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF25224F18CA00C2F048 /* CCQURLSessionDataTask.swift */; };
 		2891DF28225062EE00C2F048 /* CCQURLConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2891DF27225062EE00C2F048 /* CCQURLConfig.swift */; };
@@ -94,6 +100,12 @@
 		28788270225CBBFF0057E003 /* SYWKWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYWKWebViewVC.m; sourceTree = "<group>"; };
 		28788271225CBBFF0057E003 /* SYWKWebViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYWKWebViewVC.xib; sourceTree = "<group>"; };
 		28788272225CBBFF0057E003 /* SYWKWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYWKWebViewVC.h; sourceTree = "<group>"; };
+		28788276225DB2E10057E003 /* CCQReleasedTextVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQReleasedTextVC.swift; sourceTree = "<group>"; };
+		28788277225DB2E20057E003 /* CCQReleasedTextVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCQReleasedTextVC.xib; sourceTree = "<group>"; };
+		2878827B225F045F0057E003 /* CCQReleasedImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQReleasedImageVC.swift; sourceTree = "<group>"; };
+		2878827C225F045F0057E003 /* CCQReleasedImageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCQReleasedImageVC.xib; sourceTree = "<group>"; };
+		28788281225F16BE0057E003 /* CCQReleasedVideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQReleasedVideoVC.swift; sourceTree = "<group>"; };
+		28788282225F16BE0057E003 /* CCQReleasedVideoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCQReleasedVideoVC.xib; sourceTree = "<group>"; };
 		2891DF23224F0DDC00C2F048 /* CCQHttpRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQHttpRequestManager.swift; sourceTree = "<group>"; };
 		2891DF25224F18CA00C2F048 /* CCQURLSessionDataTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQURLSessionDataTask.swift; sourceTree = "<group>"; };
 		2891DF27225062EE00C2F048 /* CCQURLConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCQURLConfig.swift; sourceTree = "<group>"; };
@@ -244,6 +256,33 @@
 			path = CCQVideoListCell;
 			sourceTree = "<group>";
 		};
+		28788275225DB2990057E003 /* CCQReleasedTextVC */ = {
+			isa = PBXGroup;
+			children = (
+				28788276225DB2E10057E003 /* CCQReleasedTextVC.swift */,
+				28788277225DB2E20057E003 /* CCQReleasedTextVC.xib */,
+			);
+			path = CCQReleasedTextVC;
+			sourceTree = "<group>";
+		};
+		2878827A225F03FD0057E003 /* CCQReleasedImageVC */ = {
+			isa = PBXGroup;
+			children = (
+				2878827B225F045F0057E003 /* CCQReleasedImageVC.swift */,
+				2878827C225F045F0057E003 /* CCQReleasedImageVC.xib */,
+			);
+			path = CCQReleasedImageVC;
+			sourceTree = "<group>";
+		};
+		28788280225F16AF0057E003 /* CCQReleasedVideoVC */ = {
+			isa = PBXGroup;
+			children = (
+				28788281225F16BE0057E003 /* CCQReleasedVideoVC.swift */,
+				28788282225F16BE0057E003 /* CCQReleasedVideoVC.xib */,
+			);
+			path = CCQReleasedVideoVC;
+			sourceTree = "<group>";
+		};
 		2891DF22224F0D7500C2F048 /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
@@ -392,6 +431,9 @@
 				283E1650225997E4006EFDA3 /* CCQRegisterVC */,
 				28F7CB59225B3C940035FBDE /* CCQAboutVC */,
 				28F7CB5E225B47390035FBDE /* CCQFeedbackVC */,
+				28788275225DB2990057E003 /* CCQReleasedTextVC */,
+				2878827A225F03FD0057E003 /* CCQReleasedImageVC */,
+				28788280225F16AF0057E003 /* CCQReleasedVideoVC */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -617,11 +659,14 @@
 				283E164722584A80006EFDA3 /* CCQPersonalCenterCell.xib in Resources */,
 				28F7CB62225B474B0035FBDE /* CCQFeedbackVC.xib in Resources */,
 				2891DF432254BB2D00C2F048 /* CCQNewsDetailVC.xib in Resources */,
+				28788284225F16BE0057E003 /* CCQReleasedVideoVC.xib in Resources */,
 				2878826C225C61EF0057E003 /* CCQVideoListCell.xib in Resources */,
+				28788279225DB2E20057E003 /* CCQReleasedTextVC.xib in Resources */,
 				28788274225CBBFF0057E003 /* SYWKWebViewVC.xib in Resources */,
 				28F7CB5D225B3CBD0035FBDE /* CCQAboutVC.xib in Resources */,
 				28A37794224B0CBB00F9B70B /* Assets.xcassets in Resources */,
 				28A37792224B0CB800F9B70B /* Main.storyboard in Resources */,
+				2878827E225F045F0057E003 /* CCQReleasedImageVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,6 +735,7 @@
 				28A37824224B0F8800F9B70B /* UIView+CZAddition.m in Sources */,
 				28A3783A224B224C00F9B70B /* CCQBaseNavigationVC.swift in Sources */,
 				28A37830224B0F8800F9B70B /* UIBarButtonItem+Extensions.swift in Sources */,
+				28788283225F16BE0057E003 /* CCQReleasedVideoVC.swift in Sources */,
 				2891DF5122560B6E00C2F048 /* CCQTextJokesListCell.swift in Sources */,
 				28A37828224B0F8800F9B70B /* NSString+CZPath.m in Sources */,
 				28F7CB5C225B3CBD0035FBDE /* CCQAboutVC.swift in Sources */,
@@ -713,6 +759,7 @@
 				2891DF28225062EE00C2F048 /* CCQURLConfig.swift in Sources */,
 				2891DF472255CFDB00C2F048 /* CCQHomeListCell.swift in Sources */,
 				2891DF3A22536FAC00C2F048 /* NSObject+CCQModel.m in Sources */,
+				28788278225DB2E20057E003 /* CCQReleasedTextVC.swift in Sources */,
 				28A37831224B0F8800F9B70B /* UIImageView+WebImage.swift in Sources */,
 				283E1639225752D0006EFDA3 /* CCQCommonMacro.swift in Sources */,
 				2878826B225C61EF0057E003 /* CCQVideoListCell.swift in Sources */,
@@ -723,6 +770,7 @@
 				2891DF592256E65C00C2F048 /* CCQVideosListVC.swift in Sources */,
 				28A3782E224B0F8800F9B70B /* NSArray+Log.m in Sources */,
 				2891DF24224F0DDC00C2F048 /* CCQHttpRequestManager.swift in Sources */,
+				2878827D225F045F0057E003 /* CCQReleasedImageVC.swift in Sources */,
 				28A3781D224B0F8700F9B70B /* CCQDiscoverViewController.swift in Sources */,
 				28A3782C224B0F8800F9B70B /* NSString+CZHash.m in Sources */,
 				283E163F22583BDB006EFDA3 /* CCQPersonalCenterHeaderView.swift in Sources */,

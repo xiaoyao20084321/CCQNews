@@ -56,7 +56,6 @@
             [alertController addAction:action];
         }
     }
-    
     [controller presentViewController:alertController animated:YES completion:nil];
 }
 @end

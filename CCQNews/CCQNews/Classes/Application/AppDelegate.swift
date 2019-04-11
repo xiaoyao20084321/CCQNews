@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        ///获取UserDefaults中的user数据
+        ///获取UserDefaults中的user数据用于判断用户是否登录
         CCQUser.shared.updataUser(dict: UserDefaults.standard.value(forKey: kCCQUser) as? [String : AnyObject] ?? ["" : "" as AnyObject])
         ///添加极光推送
         addJpush(application, didFinishLaunchingWithOptions: launchOptions)

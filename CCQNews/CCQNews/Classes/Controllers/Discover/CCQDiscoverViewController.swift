@@ -21,6 +21,7 @@ class CCQDiscoverViewController: CCQBaseViewController {
         super.setupUI()
         navigationItem.title = "纯文段子"
         setupTableView()
+        setupNavigationItem()
     }
 }
 // MARK: - 设置界面
@@ -45,6 +46,24 @@ extension CCQDiscoverViewController {
         tableView.register(UINib(nibName: "CCQTextJokesListCell", bundle: nil), forCellReuseIdentifier: textsCellIDF)
         CCQTools.beginDropDownRefreshingAtTableView(tableView: tableView)
     }
+    func setupNavigationItem() {
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "icon_released"), style: UIBarButtonItem.Style.plain, target: self, action: #selector(released(_:)))
+    }
+    @objc func released(_ sender: UIBarButtonItem) {
+        CCQSystemAlertView.showSystemActionSheet(withTitle: nil, message: nil, contentArray: ["取消", "发纯文", "发图文", "发视频"], controller: self) {[weak self](seleteIndex: Int) in
+            if 1 == seleteIndex {
+                let releasedTextVC = CCQReleasedTextVC(nibName: "CCQReleasedTextVC", bundle: nil)
+                self?.navigationController?.pushViewController(releasedTextVC, animated: true)
+            } else if 2 == seleteIndex {
+                let releasedImageVC = CCQReleasedImageVC(nibName: "CCQReleasedImageVC", bundle: nil)
+                self?.navigationController?.pushViewController(releasedImageVC, animated: true)
+            } else if 3 == seleteIndex {
+                let releasedVideoVC = CCQReleasedVideoVC(nibName: "CCQReleasedVideoVC", bundle: nil)
+                self?.navigationController?.pushViewController(releasedVideoVC, animated: true)
+            }
+        }
+    }
+
 }
 // MARK: - 请求网络数据
 extension CCQDiscoverViewController {
